@@ -860,3 +860,36 @@ Not Found: /favicon.ico
 [29/Apr/2018 22:52:13] "GET / HTTP/1.1" 200 138
 Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
 [29/Apr/2018 22:52:47] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59773
+[29/Apr/2018 22:57:19] "GET / HTTP/1.1" 200 735
+[29/Apr/2018 23:01:53] "GET / HTTP/1.1" 200 735
+[29/Apr/2018 23:01:58] "GET / HTTP/1.1" 200 735
+[29/Apr/2018 23:02:47] "GET / HTTP/1.1" 200 735
+[29/Apr/2018 23:06:45] "GET / HTTP/1.1" 200 735
+[29/Apr/2018 23:06:50] "GET / HTTP/1.1" 200 735
+[29/Apr/2018 23:06:52] "GET / HTTP/1.1" 200 735
+[29/Apr/2018 23:06:54] "GET / HTTP/1.1" 200 735
+[29/Apr/2018 23:09:46] "GET / HTTP/1.1" 200 735
+[29/Apr/2018 23:09:47] "GET / HTTP/1.1" 200 735
+[29/Apr/2018 23:09:47] "GET / HTTP/1.1" 200 735
+[29/Apr/2018 23:09:47] "GET / HTTP/1.1" 200 735
+[29/Apr/2018 23:09:48] "GET / HTTP/1.1" 200 735
+[29/Apr/2018 23:09:48] "GET / HTTP/1.1" 200 735
+[29/Apr/2018 23:09:48] "GET / HTTP/1.1" 200 735
+[29/Apr/2018 23:09:49] "GET / HTTP/1.1" 200 735
+[29/Apr/2018 23:09:49] "GET / HTTP/1.1" 200 735
+[29/Apr/2018 23:09:50] "GET / HTTP/1.1" 200 735
+[29/Apr/2018 23:09:51] "GET / HTTP/1.1" 200 735
+[29/Apr/2018 23:09:52] "GET / HTTP/1.1" 200 735
+[29/Apr/2018 23:09:52] "GET / HTTP/1.1" 200 735
+[29/Apr/2018 23:09:52] "GET / HTTP/1.1" 200 735
+[29/Apr/2018 23:55:46] "GET / HTTP/1.1" 200 735
+[30/Apr/2018 00:07:55] "GET / HTTP/1.1" 200 735
+[30/Apr/2018 01:19:06] "GET / HTTP/1.1" 200 735
+[30/Apr/2018 01:19:06] "GET / HTTP/1.1" 200 735
+[30/Apr/2018 01:19:06] "GET / HTTP/1.1" 200 735
+Invalid HTTP_HOST header: u'oop.postech.ac.kr:8000'. You may need to add u'oop.postech.ac.kr' to ALLOWED_HOSTS.
+[30/Apr/2018 05:01:01] "GET / HTTP/1.0" 400 58990
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
+[30/Apr/2018 07:42:40] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59773
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
+[30/Apr/2018 16:28:10] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59773
