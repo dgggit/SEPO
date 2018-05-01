@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'testsite',
+	'community',
 ]
 
 MIDDLEWARE = [
@@ -76,17 +77,22 @@ WSGI_APPLICATION = 'sepo_server.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    }
+		'ENGINE' : 'django.db.backends.mysql',
+		'NAME' : 'second',
+		'USER' : 'team6',
+		'PASSWORD' : 'sepo6team',
+	}
 
+
+#        'ENGINE': 'django.db.backends.sqlite3',
+#        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#    }
 #    'mysqldb': {
 #        'NAME' : 'second',
 #        'ENGINE' : 'django.db.backends.mysql',
 #        'USER' : 'team6',
 #        'PASSWORD' : 'sepo6team',
 #    }
-
 }
 
 

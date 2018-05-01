@@ -893,3 +893,454 @@ Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' 
 [30/Apr/2018 07:42:40] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59773
 Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
 [30/Apr/2018 16:28:10] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59773
+[30/Apr/2018 23:25:48] "GET / HTTP/1.1" 200 735
+Performing system checks...
+
+System check identified no issues (0 silenced).
+April 29, 2018 - 22:46:18
+Django version 1.11.11, using settings 'sepo_server.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[30/Apr/2018 23:39:00] "GET / HTTP/1.1" 200 735
+Not Found: /favicon.ico
+[30/Apr/2018 23:39:00] "GET /favicon.ico HTTP/1.1" 404 2141
+[30/Apr/2018 23:39:03] "GET / HTTP/1.1" 200 735
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/team6/djangoproject/sepo_server/testsite/views.py", line 9, in post_list
+    return render(request, 'testsite/post_list2.html',{} )
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/base.py", line 38, in get_template
+    contents = self.get_contents(origin)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/filesystem.py", line 29, in get_contents
+    return fp.read()
+  File "/usr/lib/python2.7/codecs.py", line 314, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xb8 in position 36: invalid start byte
+[01/May/2018 17:50:58] "GET / HTTP/1.1" 500 126543
+Not Found: /favicon.ico
+[01/May/2018 17:50:58] "GET /favicon.ico HTTP/1.1" 404 2141
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/team6/djangoproject/sepo_server/testsite/views.py", line 9, in post_list
+    return render(request, 'testsite/post_list2.html',{} )
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/base.py", line 38, in get_template
+    contents = self.get_contents(origin)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/filesystem.py", line 29, in get_contents
+    return fp.read()
+  File "/usr/lib/python2.7/codecs.py", line 314, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xb8 in position 36: invalid start byte
+[01/May/2018 17:52:41] "GET / HTTP/1.1" 500 126543
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/team6/djangoproject/sepo_server/testsite/views.py", line 9, in post_list
+    return render(request, 'testsite/post_list2.html',{} )
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/base.py", line 38, in get_template
+    contents = self.get_contents(origin)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/filesystem.py", line 29, in get_contents
+    return fp.read()
+  File "/usr/lib/python2.7/codecs.py", line 314, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xb8 in position 36: invalid start byte
+[01/May/2018 18:10:21] "GET / HTTP/1.1" 500 126408
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/team6/djangoproject/sepo_server/testsite/views.py", line 9, in post_list
+    return render(request, 'testsite/post_list2.html',{} )
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/base.py", line 38, in get_template
+    contents = self.get_contents(origin)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/filesystem.py", line 29, in get_contents
+    return fp.read()
+  File "/usr/lib/python2.7/codecs.py", line 314, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xb8 in position 36: invalid start byte
+[01/May/2018 18:10:26] "GET / HTTP/1.1" 500 126543
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
+[01/May/2018 19:07:49] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 59522
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/team6/djangoproject/sepo_server/testsite/views.py", line 9, in post_list
+    return render(request, 'testsite/post_list2.html',{} )
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/base.py", line 38, in get_template
+    contents = self.get_contents(origin)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/filesystem.py", line 29, in get_contents
+    return fp.read()
+  File "/usr/lib/python2.7/codecs.py", line 314, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xb8 in position 36: invalid start byte
+[01/May/2018 19:20:30] "GET / HTTP/1.1" 500 126408
+Not Found: /favicon.ico
+[01/May/2018 19:20:30] "GET /favicon.ico HTTP/1.1" 404 2141
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/team6/djangoproject/sepo_server/testsite/views.py", line 9, in post_list
+    return render(request, 'testsite/post_list2.html',{} )
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/base.py", line 38, in get_template
+    contents = self.get_contents(origin)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/filesystem.py", line 29, in get_contents
+    return fp.read()
+  File "/usr/lib/python2.7/codecs.py", line 314, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xb8 in position 36: invalid start byte
+[01/May/2018 19:20:36] "GET / HTTP/1.1" 500 126543
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/team6/djangoproject/sepo_server/testsite/views.py", line 9, in post_list
+    return render(request, 'testsite/post_list2.html',{} )
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/base.py", line 38, in get_template
+    contents = self.get_contents(origin)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/filesystem.py", line 29, in get_contents
+    return fp.read()
+  File "/usr/lib/python2.7/codecs.py", line 314, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xb8 in position 36: invalid start byte
+[01/May/2018 19:20:37] "GET / HTTP/1.1" 500 126543
+[2018-05-01 19:20:37,171] - Broken pipe from ('121.180.246.185', 63294)
+
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/team6/djangoproject/sepo_server/testsite/views.py", line 9, in post_list
+    return render(request, 'testsite/post_list2.html',{} )
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/base.py", line 38, in get_template
+    contents = self.get_contents(origin)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/filesystem.py", line 29, in get_contents
+    return fp.read()
+  File "/usr/lib/python2.7/codecs.py", line 314, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xb8 in position 36: invalid start byte
+[01/May/2018 19:20:37] "GET / HTTP/1.1" 500 126543
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/team6/djangoproject/sepo_server/testsite/views.py", line 9, in post_list
+    return render(request, 'testsite/post_list2.html',{} )
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/base.py", line 38, in get_template
+    contents = self.get_contents(origin)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/filesystem.py", line 29, in get_contents
+    return fp.read()
+  File "/usr/lib/python2.7/codecs.py", line 314, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xb8 in position 36: invalid start byte
+[01/May/2018 19:20:37] "GET / HTTP/1.1" 500 126543
+[2018-05-01 19:20:37,521] - Broken pipe from ('121.180.246.185', 63296)
+
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/team6/djangoproject/sepo_server/testsite/views.py", line 9, in post_list
+    return render(request, 'testsite/post_list2.html',{} )
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/base.py", line 38, in get_template
+    contents = self.get_contents(origin)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/filesystem.py", line 29, in get_contents
+    return fp.read()
+  File "/usr/lib/python2.7/codecs.py", line 314, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xb8 in position 36: invalid start byte
+[01/May/2018 19:20:37] "GET / HTTP/1.1" 500 126543
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/team6/djangoproject/sepo_server/testsite/views.py", line 9, in post_list
+    return render(request, 'testsite/post_list2.html',{} )
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/base.py", line 38, in get_template
+    contents = self.get_contents(origin)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/filesystem.py", line 29, in get_contents
+    return fp.read()
+  File "/usr/lib/python2.7/codecs.py", line 314, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xb8 in position 36: invalid start byte
+[01/May/2018 20:36:09] "GET / HTTP/1.1" 500 126406
+Not Found: /favicon.ico
+[01/May/2018 20:36:09] "GET /favicon.ico HTTP/1.1" 404 2141
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/team6/djangoproject/sepo_server/testsite/views.py", line 9, in post_list
+    return render(request, 'testsite/post_list2.html',{} )
+  File "/usr/local/lib/python2.7/dist-packages/django/shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 67, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/base.py", line 38, in get_template
+    contents = self.get_contents(origin)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/filesystem.py", line 29, in get_contents
+    return fp.read()
+  File "/usr/lib/python2.7/codecs.py", line 314, in decode
+    (result, consumed) = self._buffer_decode(data, self.errors, final)
+UnicodeDecodeError: 'utf8' codec can't decode byte 0xb8 in position 36: invalid start byte
+[01/May/2018 20:46:56] "GET / HTTP/1.1" 500 126406
+[01/May/2018 20:46:59] "GET /admin/ HTTP/1.1" 302 0
+[01/May/2018 20:46:59] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1667
+[01/May/2018 20:46:59] "GET /static/admin/css/base.css HTTP/1.1" 200 16066
+[01/May/2018 20:46:59] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[01/May/2018 20:46:59] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[01/May/2018 20:46:59] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[01/May/2018 20:46:59] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[01/May/2018 20:47:06] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[01/May/2018 20:47:06] "GET /admin/ HTTP/1.1" 200 5140
+[01/May/2018 20:47:06] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[01/May/2018 20:47:06] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[01/May/2018 20:47:06] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[01/May/2018 20:47:06] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[01/May/2018 20:47:06] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[01/May/2018 20:47:08] "GET /admin/testsite/post/ HTTP/1.1" 200 4483
+[01/May/2018 20:47:08] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[01/May/2018 20:47:08] "GET /static/admin/js/core.js HTTP/1.1" 200 7976
+[01/May/2018 20:47:08] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[01/May/2018 20:47:08] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6591
+[01/May/2018 20:47:08] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[01/May/2018 20:47:08] "GET /static/admin/js/actions.js HTTP/1.1" 200 6501
+[01/May/2018 20:47:08] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8186
+[01/May/2018 20:47:08] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[01/May/2018 20:47:08] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[01/May/2018 20:47:08] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[01/May/2018 20:47:08] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[01/May/2018 20:47:09] "GET /admin/testsite/post/3/change/ HTTP/1.1" 200 7566
+[01/May/2018 20:47:09] "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+[01/May/2018 20:47:09] "GET /static/admin/js/calendar.js HTTP/1.1" 200 7790
+[01/May/2018 20:47:09] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20529
+[01/May/2018 20:47:09] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[01/May/2018 20:47:09] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[01/May/2018 20:47:10] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[01/May/2018 20:47:10] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[01/May/2018 20:47:10] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[01/May/2018 20:47:10] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[01/May/2018 20:47:14] "POST /admin/testsite/post/3/change/ HTTP/1.1" 302 0
+[01/May/2018 20:47:14] "GET /admin/testsite/post/ HTTP/1.1" 200 4678
+[01/May/2018 20:47:14] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[01/May/2018 20:47:14] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[01/May/2018 20:47:28] "GET /admin/testsite/post/3/change/ HTTP/1.1" 200 7566
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 01, 2018 - 17:50:53
+Django version 1.11.11, using settings 'sepo_server.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Traceback (most recent call last):
+  File "manage.py", line 22, in <module>
+    execute_from_command_line(sys.argv)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 364, in execute_from_command_line
+    utility.execute()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/__init__.py", line 308, in execute
+    settings.INSTALLED_APPS
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 56, in __getattr__
+    self._setup(name)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 41, in _setup
+    self._wrapped = Settings(settings_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/__init__.py", line 110, in __init__
+    mod = importlib.import_module(self.SETTINGS_MODULE)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/sepo_server/settings.py", line 95
+    }
+    ^
+SyntaxError: invalid syntax
