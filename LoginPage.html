@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Sepo</title>
+  <link rel="stylesheet" type="text/css" href="login-header-menu.css">
+  <link rel="stylesheet" type="text/css" href="mainPage-style.css">
+  <style>
+    .loginWrapper {
+      display: grid;
+      grid-template-columns: repeat(13, 1fr);
+      grid-template-rows: repeat(11, 1fr);
+      height: 800px;
+      grid-gap: 10px;
+      padding-bottom: 18px;
+
+    }
+
+    #loginBox {
+      display: grid;
+      grid-column: 6/9;
+      grid-row: 3/8;
+      background: #fff;
+      box-shadow: 10px 10px #B8D7FF, 20px 20px #CCE1FF, 30px 30px #EBF5FF, -10px -10px #C8D7FF;
+    }
+
+    .loginInput {
+      width: 140px;
+      height: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="login">
+    <a class="loginBar"><tt>login</tt></a>
+    <a class="loginBar"><tt>Sign up</tt></a>
+  </div>
+  <div class="header">
+    <img id="mainLogo" src="logo_typeB_1.png"></img>
+  </div>
+  <div class="menu">
+    <a class="menuBar">Lecture</a>
+    <a class="menuBar">Rank</a>
+    <a class="menuBar">Community</a>
+    <a class="menuBar">Q & A</a>
+    <a class="menuBarExit">Help</a>
+  </div>
+  <div class="loginWrapper">
+    <div id="loginBox">
+      <h2 style="height:50px">Login</h2>
+      <label><h3>ID</h3></label><input class="loginInput"></input>
+      <label><h3>Password</h3></label><input class="loginInput"></input>
+    </label>Remember me</label><input type="checkbox" value="Remember me"></input>
+    </div>
+  </div>
+
+</body>
+
+</html>
