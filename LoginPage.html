@@ -7,22 +7,99 @@
   <link rel="stylesheet" type="text/css" href="login-header-menu.css">
   <link rel="stylesheet" type="text/css" href="mainPage-style.css">
   <style>
-    .loginWrapper {
-      display: grid;
-      grid-template-columns: repeat(13, 1fr);
-      grid-template-rows: repeat(11, 1fr);
-      height: 800px;
-      grid-gap: 10px;
-      padding-bottom: 18px;
+    .member {
+      font-size: 50px;
+      padding-top: 40px;
+      text-align: center;
+      text-transform: capitalize;
+      margin-bottom: 0px;
+      padding-top: 95px;
+    }
+
+    body {
+      font-family: "맑은 고딕";
+      font-size: 12px;
+    }
+
+    .form {
+      width: 498px;
+      height: 300px;
+      border-radius: 25px;
+      margin-top: 20px;
+    }
+
+    .form2 {
+      width: 380px;
+      min-width: 320px;
+      height: 200px;
+      margin-left: 50px;
+      margin-right: 50px;
+      padding-left: 40px;
 
     }
 
+    .form3 {
+      float: left;
+      margin-top: 5px;
+      margin-right: 5px;
+      /*   background:#f00;  */
+    }
+
+    .form3 label {
+      width: 100px;
+      height: 20px;
+      display: block;
+      float: left;
+      text-align: center;
+      width: 90px;
+    }
+
+    .form4 {
+      padding: 0px 0px 0px 70px;
+    }
+
+    #wrap {
+      width: 600px;
+      height: 500px;
+      margin: 0 auto;
+    }
+
+    .clear {
+      clear: both;
+    }
+
+    input[type="submit"] {
+      float: left;
+      height: 50px;
+      background: #EBF5FF;
+      border-radius: 5px;
+      border: none;
+      margin-left: 12px;
+    }
+
+    input[type="button"] {
+      height: 30px;
+      margin-top: 10px;
+      margin-right: 20px;
+      background: #EBF5FF;
+      border: 0px;
+    }
+
+    input[type="checkbox"] {
+      margin-top: 20px;
+      margin-left: 55px;
+    }
+
+
+
     #loginBox {
-      display: grid;
-      grid-column: 6/9;
-      grid-row: 3/8;
+      height: 400px;
+      width: 500px;
+
       background: #fff;
       box-shadow: 10px 10px #B8D7FF, 20px 20px #CCE1FF, 30px 30px #EBF5FF, -10px -10px #C8D7FF;
+      margin: auto;
+      margin-top: 100px;
     }
 
     .loginInput {
@@ -50,12 +127,24 @@
     <a class="menuBar">Q & A</a>
     <a class="menuBarExit">Help</a>
   </div>
-  <div class="loginWrapper">
-    <div id="loginBox">
-      <h2 style="height:50px">Login</h2>
-      <label><h3>ID</h3></label><input class="loginInput"></input>
-      <label><h3>Password</h3></label><input class="loginInput"></input>
-    </label>Remember me</label><input type="checkbox" value="Remember me"></input>
+  <div id="loginBox">
+    <h1 class="member">login</h1>
+    <div class="form">
+      <div class="form2">
+        <div class="form3">
+          <label for="user">아이디</label><input type="text" id="user">
+          <div class="clear"></div>
+          <label for="user">비밀번호</label><input type="password" id="user">
+        </div>
+        <input type="submit" value="로그인하기">
+        <div class="clear"></div>
+        <div class="form4">
+          <label><input type="checkbox">아이디저장</label>
+          <div class="clear"></div>
+          <label><input type="button" value="회원가입"></label> <label><input
+       type="button" value="아이디/비밀번호 찾기"></label>
+        </div>
+      </div>
     </div>
   </div>
 
