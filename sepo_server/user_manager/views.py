@@ -8,9 +8,11 @@ from django.http.response import HttpResponse
 
 # Create your views here.
 
-def post_community(req):
-	template = get_template('post_community.html')
-	context = {'python_word' : 'Python'}
+def login(req):
+	template = get_template('LoginPage.html')
 
-	return HttpResponse(template.render(context))
+	context = {}
+	#context = {'login_form' : LoginForm()}
+	#context.update(csrf(req))
 
+	return HttpResponse(template.render(context))	

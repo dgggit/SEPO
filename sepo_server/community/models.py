@@ -1,14 +1,9 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals
-
+from django.contrib.auth.models import User
 from django.db import models
 
-# Create your models here.
-
-class DjangoBoard(models.Model):
-  subject = models.CharField(max_length=50, blank=True)
-  name = models.CharField(max_length=50, blank=True)
-  created_date = models.DateField(null=True, blank=True)
-  mail = models.CharField(max_length=50, blank=True)
-  memo = models.CharField(max_length=200, blank=True)
-  hits = models.IntegerField(null=True, blank=True)
+class Post_Community(models.Model):
+	title = models.CharField(max_length=1024)
+	body = models.CharField(max_length=19200)
+	author = models.ForeignKey(User)
+	regdate = models.DateTimeField(auto_created = True, auto_now_add = True)
+	hits = models.IntegerField(null=True, blank=True)

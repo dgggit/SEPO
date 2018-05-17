@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+	'user_manager',
     'testsite',
 	'community',
 ]
@@ -78,7 +79,7 @@ WSGI_APPLICATION = 'sepo_server.wsgi.application'
 DATABASES = {
     'default': {
 		'ENGINE' : 'django.db.backends.mysql',
-		'NAME' : 'second',
+		'NAME' : 'sepo6team',
 		'USER' : 'team6',
 		'PASSWORD' : 'sepo6team',
 	}
@@ -116,7 +117,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 
 # Internationalization
-# https://docs.djangoproject.com/en/1.11/topics/i18n/
+# https://docs.djangoproject.com/en/0.11/topics/i18n/
 
 LANGUAGE_CODE = 'ko'
 
