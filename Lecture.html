@@ -7,27 +7,38 @@
   <link rel="stylesheet" type="text/css" href="login-header-menu.css">
   <link rel="stylesheet" type="text/css" href="lecture.css">
   <link rel="stylesheet" type="text/css" href="wrapper.css">
+  <style>
+    .button {
+      height: 40px;
+      width: 60px;
+      background: #CCE1FF;
+      border: 0px;
+      border-radius: 4px;
+    }
+  </style>
 </head>
 
 <body>
   <div class="login">
-    <a class="loginBar"><tt>login</tt></a>
-    <a class="loginBar"><tt>Sign up</tt></a>
+    <a href="LoginPage.html" class="loginBar" style="margin-right:4px; text-decoration:none;">로그인</a>
+    <a href="SignUp.html" class="loginBar" style="text-decoration: none;">회원가입</a>
   </div>
   <div class="header">
-    <img id="mainLogo" src="logo_typeB_1.png"></img>
+    <a href="MainPage.html" title="Sepo"><img id="mainLogo" src="logo_typeB_1.png"></img></a>
   </div>
   <div class="menu">
-    <a class="menuBar">Lecture</a>
-    <a class="menuBar">Rank</a>
-    <a class="menuBar">Community</a>
-    <a class="menuBar">Q & A</a>
+    <a href="Lecture.html" class="menuBar">Lecture</a>
+    <a href="Rank.html" target="_blank" class="menuBar">Rank</a>
+    <a href="community.html" class="menuBar">Community</a>
+    <a href="community.html" class="menuBar">Q & A</a>
     <a class="menuBarExit">Help</a>
   </div>
   <div class="wrapper">
     <div class="lecture">
-      <h2 style="margin-top: 0px">Lecture</h2>
-      <ol type="a" style="padding-left: 20px;">
+      <h2 style="margin-top: 0px; font-weight: normal; padding-bottom: 15px; padding-bottom: 15px; border-bottom: 1px dotted #8992a3;">
+        <a href="Lecture.html" style="text-decoration: none;">강의</a>
+      </h2>
+      <ol type="a" style="list-style: none; padding-left: 1px;">
         <li class="lectureList"><a>강의제목</a></li>
         <li class="lectureList"><a>강의제목</a></li>
         <li class="lectureList"><a>강의제목</a></li>
@@ -41,24 +52,20 @@
       </ol>
     </div>
     <div class="lecturePage">
-      <h2><tt>Lecture 1</tt></h2>
+      <h2>첫번째 강의</h2>
       <h3>이 강의에 대한 설명</h3>
-      <div>
+      <div style="margin-bottom: 410px;">
         여기 공간은 알아서 사용하셈~~~
       </div>
-
-    </div>
-    <div class="hint">
-      여기 힌트같은 걸 줄수 있을겁니다
-      자세한 내용은 만들고 추가하면 될듯
+        <input class="button" type="button" value="이전">
+        <input class="button" type="button" value="다음" style="margin-left: 593px;">
     </div>
   </div>
 
-    <div class="footer">
-      <ul style="margin-top: 15px; margin-bottom: 3px;">2018 Object-Oriented Programming Project</ul>
-      <ul style="margin-top: 3px; margin-bottom: 3px;">Sepo</ul>
-      <ul style="margin-top: 3px; margin-bottom: 3px;">2018 객체지향프로그래밍 프로젝트 사이트입니다</ul>
-    </div>
+  <div class="footer">
+    <ul style="margin-top: 15px; margin-bottom: 3px;">2018 Object-Oriented Programming</ul>
+    <ul style="margin-top: 3px; margin-bottom: 3px;">copyright@Group6Sepo</ul>
+  </div>
 
 </body>
 
