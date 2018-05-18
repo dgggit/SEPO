@@ -37,10 +37,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+	'django_markdown',
+	'django.contrib.sites',
+	'django.contrib.flatpages',
+	'ckeditor',
+	'writer',
 	'user_manager',
     'testsite',
 	'community',
 ]
+SITE_ID = 1
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

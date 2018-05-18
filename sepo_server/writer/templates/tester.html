@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load django_markdown %}
+{% load django_markdown_static %}
+{% load static %}
+<html>
+<head>
+	<meta charset = "utf-8">
+	<title> ckeditor</title>
+	<script src = "//cdn.ckeditor.com/4.9.2/full-all/ckeditor.js"></script>
+</head>
+
+<body>
+	<textarea name = "test" id = "new"></textarea>
+	{% markdown_editor "#new" %}
+	{% markdown_media %}
+	
+	<form>
+		<textarea name="editor1" id="editor1" rows="10" cols="80">
+			textareareplacement
+		</textarea>
+		<script>
+			CKEDITOR.replace('editor1', {
+			});
+		</script>
+		<input type="submit">
+	</form>
+	
+
+</body>
+
+</html>
+
+

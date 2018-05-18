@@ -17,9 +17,14 @@ Including another URLconf
 
 from django.conf.urls import include, url
 from django.contrib import admin
+from django_markdown import flatpages
 
+admin.autodiscover()
+flatpages.register()
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
 	url(r'^community/', include('community.urls')),
 	url(r'^user/', include('user_manager.urls')),
+	url(r'^writer/',include('writer.urls')),
+	url(r'^markdown/',include('django_markdown.urls')),
 ]
