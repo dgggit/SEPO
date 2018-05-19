@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+{% load static %}
+<head>
+  <meta charset="utf-8">
+  <title>Sepo</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'login-header-menu.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'lecture.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'mainPage-style.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'wrapper.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'table.css' %}">
+  <style>
+    .signUpForm {
+      width: 300px;
+      padding-top: 20px;
+      padding: 15px;
+      padding-top: 20px;
+      border-left-width: 0px;
+      margin-left: 46px;
+      border-right-width: 0px;
+      margin-right: 45px;
+      margin-bottom: 20px;
+      background-color: #EBF5FF;
+      margin: auto;
+      margin-top: 100px;
+      margin-bottom: 130px;
+      border-radius: 15px;
+      box-shadow: -4px -4px white, -8px -8px #C8D7FF, 4px 4px white, 8px 8px #CCE1FF;
+    }
+
+    .inputForm {
+      margin-top: 30px;
+      margin-left: 3px;
+    }
+
+    .inputForm label {
+      height: 20px;
+      display: block;
+      float: left;
+      text-align: left;
+      width: 90px;
+      padding-top: 10px;
+
+
+    }
+
+    .text {
+      height: 30px;
+      width: 200px;
+    }
+
+    #title {
+      display: block;
+      text-align: left;
+      padding-left: 2px;
+      font-size: 20px;
+      padding-bottom: 19px;
+      font-weight: bold;
+    }
+
+    .button {
+      display: block;
+      margin-left: 229px;
+      height: 40px;
+      width: 60px;
+      background: #CCE1FF;
+      border: 0px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="login">
+    <a href="LoginPage.html" class="loginBar" style="margin-right:4px;">로그인</a>
+    <a class="loginBar">회원가입</a>
+  </div>
+  <div class="header">
+    <a href="MainPage.html" title="Sepo"><img id="mainLogo" src="{% static 'logo_typeB_1.png'%}"></img></a>
+  </div>
+  <div class="menu">
+    <a href="Lecture.html" class="menuBar">Lecture</a>
+    <a href="Rank.html" target="_blank" class="menuBar">Rank</a>
+    <a class="menuBar">Community</a>
+    <a class="menuBar">Q & A</a>
+    <a class="menuBarExit">Help</a>
+  </div>
+
+  <div class="signUpForm">
+    <div id="title">회원 가입</div>
+	<form action = "" method = "POST">
+		{% csrf_token %}
+		{{ join_form }}
+		<input type = "submit" value = "JOIN"/>
+	</form>
+
+    <div class="inputForm" style="margin-top:0px;"><label for="user" style="width: 80px;">아이디</label><input class="text" type="text" id="user"></div>
+    <div class="inputForm"><label for="password" style="width: 80px;">비밀 번호</label><input class="text" type="text" id="password"></div>
+    <div class="inputForm"><label for="nickname" style="width: 80px;">별명</label><input class="text" type="text" id="nickname"></div>
+    <div class="inputForm" style="margin-bottom: 15px;"><label for="job" style="width: 80px;">직업/학교</label><input class="text" type="text" id="job"></div>
+    <input class="button" type="button" value="Sign In">
+  </div>
+  <div class="footer">
+    <ul style="margin-top: 15px; margin-bottom: 3px;">2018 Object-Oriented Programming</ul>
+    <ul style="margin-top: 3px; margin-bottom: 3px;">copyright@Group6Sepo</ul>
+  </div>
+</body>

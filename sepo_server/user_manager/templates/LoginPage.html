@@ -133,15 +133,12 @@
     <div class="form">
       <div class="form2">
         <div class="form3">
-		  <form>
+		  <form action="validate/" method = "POST">
 			{% csrf_token %}
 			{{ login_form }}
+			<input type = "submit" value = "LOGIN">
 		   </form>
-          <label for="user">아이디</label><input type="text" id="user">
-          <div class="clear"></div>
-          <label for="user">비밀번호</label><input type="password" id="user">
         </div>
-        <input type="submit" value="로그인하기">
         <div class="clear"></div>
         <div class="form4">
           <label><input type="checkbox">아이디저장</label>

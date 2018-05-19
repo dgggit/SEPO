@@ -19,7 +19,9 @@
 			textareareplacement
 		</textarea>
 		<script>
+			CKEDITOR.plugins.addExternal('markdown','/writer/templates/myplugins/','to-markdown.js');
 			CKEDITOR.replace('editor1', {
+				extraPlugins : 'markdown'
 			});
 		</script>
 		<input type="submit">
