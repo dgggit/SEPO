@@ -1,0 +1,24 @@
+table.type01 {
+  border-spacing: 0;
+  text-align: center;
+  line-height: 1.5;
+  margin-top: 0px;
+  border: 0px;
+  color: #6e6c6c;
+  margin-left: 1px;
+  font-size: 12px;
+}
+
+table.type01 th {
+  padding: 4px;
+  vertical-align: top;
+  border: 0px;
+  text-align: left;
+  font-weight: normal;
+}
+
+table.type01 td {
+  padding: 4px;
+  border: 0px;
+  text-align: left;
+}

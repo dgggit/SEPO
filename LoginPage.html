@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Sepo</title>
+  <link rel="stylesheet" type="text/css" href="login-header-menu.css">
+  <link rel="stylesheet" type="text/css" href="mainPage-style.css">
+  <style>
+    .member {
+      font-size: 20px;
+      font-weight: normal;
+      text-align: left;
+      text-transform: capitalize;
+      margin-bottom: 0px;
+      padding-top: 117px;
+      margin-left: 110px;
+    }
+
+    body {
+      font-family: "Nanum Gothic";
+      font-size: 12px;
+    }
+
+    .form {
+      width: 498px;
+      height: 300px;
+      border-radius: 25px;
+      margin-top: 8px;
+    }
+
+    .form2 {
+      width: 380px;
+      min-width: 320px;
+      height: 200px;
+      margin-left: 50px;
+      margin-right: 50px;
+      padding-left: 40px;
+      padding-left: 61px;
+    }
+
+    .form3 {
+      float: left;
+      margin-top: 5px;
+      margin-right: 5px;
+      /*   background:#f00;  */
+    }
+
+    .form3 label {
+      width: 60px;
+      height: 20px;
+      display: block;
+      float: left;
+      text-align: left;
+      width: 90px;
+    }
+
+    .form4 {
+      padding: 0px 0px 0px 50px;
+    }
+
+    #wrap {
+      width: 600px;
+      height: 500px;
+      margin: 0 auto;
+    }
+
+    .clear {
+      clear: both;
+    }
+
+    input[type="submit"] {
+      float: left;
+      height: 50px;
+      background: #CCE1FF;
+      border-radius: 5px;
+      border: none;
+      margin-left: 12px;
+    }
+
+    input[type="button"] {
+      height: 30px;
+      width: 80px;
+      margin-top: 10px;
+      margin-right: 20px;
+      background: #CCE1FF;
+      border: 0px;
+      border-radius: 5px;
+      margin-left: 50px;
+    }
+
+    input[type="checkbox"] {
+      margin-top: 10px;
+      margin-left: 55px;
+    }
+
+
+
+    #loginBox {
+      height: 400px;
+      width: 500px;
+
+      background-color: #EBF5FF;
+      box-shadow: -4px -4px white, -8px -8px #C8D7FF, 4px 4px white, 8px 8px #CCE1FF;
+      border-radius: 20px;
+      margin: auto;
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+
+    .loginInput {
+      width: 140px;
+      height: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="login">
+    <a href="LoginPage.html" class="loginBar" style="margin-right:4px;">로그인</a>
+    <a href="SignUp.html" class="loginBar">회원가입</a>
+  </div>
+  <div class="header">
+    <a href="MainPage.html" title="Sepo"><img id="mainLogo" src="logo_typeB_1.png"></img></a>
+  </div>
+  <div class="menu">
+    <a href="Lecture.html" class="menuBar">Lecture</a>
+    <a href="Rank.html" target="_blank" class="menuBar">Rank</a>
+    <a class="menuBar">Community</a>
+    <a class="menuBar">Q & A</a>
+    <a class="menuBarExit">Help</a>
+  </div>
+  <div id="loginBox">
+    <h1 class="member">로그인</h1>
+    <div class="form">
+      <div class="form2">
+        <div class="form3">
+          <label for="user" style="width: 60px;">아이디</label><input type="text" id="user">
+          <div class="clear"></div>
+          <label for="user" style="width: 60px;">비밀번호</label><input type="password" id="user">
+        </div>
+        <input type="submit" value="로그인하기">
+        <div class="clear"></div>
+        <div class="form4">
+          <label><input type="checkbox">아이디저장</label>
+          <div class="clear"></div>
+          <label><a href="SignUp.html"><input type="button" value="회원가입"></a></label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <ul style="margin-top: 15px; margin-bottom: 3px;">2018 Object-Oriented Programming</ul>
+    <ul style="margin-top: 3px; margin-bottom: 3px;">copyright@Group6Sepo</ul>
+  </div>
+</body>
+
+</html>
