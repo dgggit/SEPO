@@ -7,4 +7,4 @@ from writer.models import MyModel
 
 # Register your models here.
 
-admin.site.register(MyModel,MarkdownModelAdmin)
+admin.site.register(MyModel)

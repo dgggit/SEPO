@@ -15,11 +15,11 @@ from django.contrib.auth.models import User
 # Create your views here.
 
 def login(req):
-	template = get_template('LoginPage.html')
+	template = get_template('TopRight.html')
 
 	context = {'login_form' : LoginForm()}
 
-	return render(req,'LoginPage.html',context)
+	return render(req,'TopRight.html',context)
 
 def login_validate(req):
 	

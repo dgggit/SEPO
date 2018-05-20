@@ -43,6 +43,7 @@
       float: left;
       margin-top: 5px;
       margin-right: 5px;
+	  width : 320px;
       /*   background:#f00;  */
     }
 
@@ -114,10 +115,7 @@
 </head>
 
 <body>
-  <div class="login">
-    <a class="loginBar"><tt>login</tt></a>
-    <a class="loginBar"><tt>Sign up</tt></a>
-  </div>
+    {% block content %}{% endblock content %}
   <div class="header">
     <img id="mainLogo" src="{% static 'logo_typeB_1.png' %}"></img>
   </div>
@@ -134,14 +132,13 @@
       <div class="form2">
         <div class="form3">
 		  <form action="validate/" method = "POST">
+			<table>
+			<th><table>
+			<tr>
 			{% csrf_token %}
-            <table>
-                <Tr>
-                    <input type = "submit" value = "LOGIN">
-                    {{ login_form }}
-                </Tr>
-            </table>
-		
+			{{ login_form }}</tr></table></th>
+			<th><table><td><input type = "submit" value = "LOGIN"></td></table></th>
+			</table>
 		  </form>
         </div>
         <div class="clear"></div>

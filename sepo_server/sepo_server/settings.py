@@ -141,3 +141,13 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+
+CKEDITOR_CONFIGS = {
+	'default': {
+		'toolbar' : 'Special',
+		'toolbar_Special' :[['Bold','Markdown']],
+		'height' : 500,
+		'extraPlugins': 'markdown',
+	}
+}
