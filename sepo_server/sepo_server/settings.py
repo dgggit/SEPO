@@ -41,10 +41,12 @@ INSTALLED_APPS = [
 	'django.contrib.sites',
 	'django.contrib.flatpages',
 	'ckeditor',
+	'ckeditor_uploader',
 	'writer',
 	'user_manager',
     'testsite',
 	'community',
+	'mainpage',
 ]
 SITE_ID = 1
 
@@ -145,9 +147,18 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 CKEDITOR_CONFIGS = {
 	'default': {
-		'toolbar' : 'Special',
-		'toolbar_Special' :[['Bold','Markdown']],
-		'height' : 500,
-		'extraPlugins': 'markdown',
+		'toolbar':'Custom',
+		'toolbar_Custom' : [
+			['Styles', 'Format', 'Bold', 'Italic', 'Underline', 'Strike', 'Undo', 'Redo',],
+			['Link', 'Unlink', 'Anchor',],
+			['Image', 'Flash', 'Table', 'HorizontalRule'],
+			['TextColor', 'BGColor'],
+			['Smiley', 'SpecialChar', 'Source', 'Markdown', 'CodeSnippet'],
+		],
+		'extraPlugins' :'markdown,codesnippet',
 	}
 }
+
+CKEDITOR_UPLOAD_PATH = 'uploads/'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = 'media/'

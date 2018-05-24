@@ -4,8 +4,6 @@
 <head>
   <meta charset="utf-8">
   <title>Sepo</title>
-  <script type="text/javascript" src="{% static 'ckeditor/ckeditor-init.js' %}"></script>
-  <script type="text/javascript" src="{% static 'ckeditor/ckeditor/ckeditor.js' %}"></script>
   <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="login-header-menu.css">
   <link rel="stylesheet" type="text/css" href="lecture.css">
@@ -45,10 +43,11 @@
     여기도 원하는 대로 쓰세요
     나중에 장고 커뮤니티 글쓰기 등등 기능 추가하고 다시 디자인 의뢰 ㄱ
 
-	<form>
-		{{myform.media}}
-		{{myform.as_p}}
-		<input type="submit"/>
+	<form action = "" method = "POST">
+		{% csrf_token %}
+		{{ form.media }}
+		{{ form }}
+		<input type="submit" value="save">
 	</form>
 
   </div>

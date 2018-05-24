@@ -1,7 +1,9 @@
-from django_markdown.fields import MarkdownFormField
-from django_markdown.widgets import MarkdownWidget
+# -*- coding: utf-8 -*-
 from django import forms
 
-class MyCustomForm(forms.Form):
-	content = forms.CharField(widget=MarkdownWidget())
-	content2 = MarkdownFormField()
+from writer.models import MyModel
+
+class PostForm(forms.ModelForm):
+	class Meta:
+		model = MyModel
+		fields = ['title','text']

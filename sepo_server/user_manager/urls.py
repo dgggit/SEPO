@@ -5,6 +5,7 @@ from . import views
 
 
 urlpatterns = [
+	url(r'^/',login),
 	url(r'^login/$',login),
 	url(r'^login/validate/$',login_validate),
 	url(r'^join/$',join),
