@@ -46,4 +46,4 @@ def delete(req,pk):
 
 def view(req, pk):
 	post = get_object_or_404(MyModel, pk=pk)
-	return render(req, 'postpage.html',{'post':post})
+	return render(req, 'Lecture.html',{'post':post})

@@ -39,14 +39,14 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 	'django_markdown',
 	'django.contrib.sites',
-	'django.contrib.flatpages',
 	'ckeditor',
 	'ckeditor_uploader',
 	'writer',
 	'user_manager',
-    'testsite',
 	'community',
 	'mainpage',
+    'problem',
+    'ranking',
 ]
 SITE_ID = 1
 

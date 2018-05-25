@@ -3841,3 +3841,1940 @@ Traceback (most recent call last):
     'height' : 500,
            ^
 SyntaxError: invalid syntax
+Error: That port is already in use.
+[25/May/2018 13:15:26] "GET /user/login/ HTTP/1.1" 200 3685
+[25/May/2018 13:15:28] "GET /user/login/ HTTP/1.1" 200 3685
+[25/May/2018 13:15:35] "GET /community/ HTTP/1.1" 200 2314
+[25/May/2018 13:47:15] "GET /user/login/ HTTP/1.1" 200 3685
+[25/May/2018 13:47:15] "GET /static/login-header-menu.css HTTP/1.1" 200 766
+[25/May/2018 13:47:15] "GET /static/mainPage-style.css HTTP/1.1" 200 268
+[25/May/2018 13:47:15] "GET /static/logo_typeB_1.png HTTP/1.1" 200 415311
+[25/May/2018 13:47:18] "POST /user/login/validate/ HTTP/1.1" 302 0
+[25/May/2018 13:47:18] "GET /community/ HTTP/1.1" 200 2314
+[25/May/2018 13:47:18] "GET /static/wrapper.css HTTP/1.1" 200 152
+[25/May/2018 13:47:18] "GET /static/lecture.css HTTP/1.1" 200 270
+[25/May/2018 13:47:18] "GET /static/table.css HTTP/1.1" 200 591
+[25/May/2018 13:47:23] "GET /community/ HTTP/1.1" 200 2314
+Not Found: /lecture/
+[25/May/2018 13:47:26] "GET /lecture/ HTTP/1.1" 404 2626
+[25/May/2018 13:47:33] "GET /user/login/ HTTP/1.1" 200 3685
+[25/May/2018 13:47:39] "POST /user/login/validate/ HTTP/1.1" 302 0
+[25/May/2018 13:47:39] "GET /community/ HTTP/1.1" 200 2314
+Not Found: /rank/
+[25/May/2018 13:47:42] "GET /rank/ HTTP/1.1" 404 2617
+Not Found: /
+[25/May/2018 13:47:45] "GET / HTTP/1.1" 404 2584
+Not Found: /
+[25/May/2018 15:14:18] "GET / HTTP/1.1" 404 2584
+Not Found: /favicon.ico
+[25/May/2018 15:14:18] "GET /favicon.ico HTTP/1.1" 404 2635
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 25, 2018 - 13:14:36
+Django version 1.11.11, using settings 'sepo_server.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[25/May/2018 15:15:02] "GET / HTTP/1.1" 200 5198
+[25/May/2018 15:15:02] "GET /lecture.css HTTP/1.1" 200 5198
+[25/May/2018 15:15:02] "GET /login-header-menu.css HTTP/1.1" 200 5198
+[25/May/2018 15:15:02] "GET /mainPage-style.css HTTP/1.1" 200 5198
+[25/May/2018 15:15:02] "GET /wrapper.css HTTP/1.1" 200 5198
+[25/May/2018 15:15:02] "GET /table.css HTTP/1.1" 200 5198
+[25/May/2018 15:15:02] "GET /logo_typeB_1.png HTTP/1.1" 200 5198
+[25/May/2018 15:15:02] "GET /icons.png HTTP/1.1" 200 5198
+[25/May/2018 15:15:08] "GET /post/upload HTTP/1.1" 200 5198
+[25/May/2018 15:15:08] "GET /post/wrapper.css HTTP/1.1" 200 5198
+[25/May/2018 15:15:08] "GET /post/table.css HTTP/1.1" 200 5198
+[25/May/2018 15:15:08] "GET /post/mainPage-style.css HTTP/1.1" 200 5198
+[25/May/2018 15:15:08] "GET /post/login-header-menu.css HTTP/1.1" 200 5198
+[25/May/2018 15:15:08] "GET /post/lecture.css HTTP/1.1" 200 5198
+[25/May/2018 15:15:08] "GET /post/logo_typeB_1.png HTTP/1.1" 200 5198
+[25/May/2018 15:15:08] "GET /post/icons.png HTTP/1.1" 200 5198
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 25, 2018 - 15:15:01
+Django version 1.11.11, using settings 'sepo_server.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+[25/May/2018 15:16:32] "GET /post/upload HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/login-header-menu.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/lecture.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/table.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/wrapper.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/mainPage-style.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/logo_typeB_1.png HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/icons.png HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/upload HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/mainPage-style.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/login-header-menu.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/lecture.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/table.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/wrapper.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/icons.png HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/logo_typeB_1.png HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/upload HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/login-header-menu.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/wrapper.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/table.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/mainPage-style.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/lecture.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/logo_typeB_1.png HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/icons.png HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/upload HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/lecture.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/mainPage-style.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/table.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/wrapper.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/login-header-menu.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/icons.png HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/logo_typeB_1.png HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/upload HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/table.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/wrapper.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/lecture.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/login-header-menu.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/mainPage-style.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/logo_typeB_1.png HTTP/1.1" 200 5198
+[25/May/2018 15:16:32] "GET /post/icons.png HTTP/1.1" 200 5198
+[25/May/2018 15:16:37] "GET /admin/ HTTP/1.1" 200 5198
+[25/May/2018 15:16:37] "GET /admin/table.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:37] "GET /admin/login-header-menu.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:37] "GET /admin/mainPage-style.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:37] "GET /admin/lecture.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:37] "GET /admin/wrapper.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:37] "GET /admin/logo_typeB_1.png HTTP/1.1" 200 5198
+[25/May/2018 15:16:37] "GET /admin/icons.png HTTP/1.1" 200 5198
+[25/May/2018 15:16:49] "GET /post/view/3/ HTTP/1.1" 200 5198
+[25/May/2018 15:16:49] "GET /post/view/3/mainPage-style.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:49] "GET /post/view/3/lecture.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:49] "GET /post/view/3/wrapper.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:49] "GET /post/view/3/table.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:49] "GET /post/view/3/login-header-menu.css HTTP/1.1" 200 5198
+[25/May/2018 15:16:49] "GET /post/view/3/icons.png HTTP/1.1" 200 5198
+[25/May/2018 15:16:49] "GET /post/view/3/logo_typeB_1.png HTTP/1.1" 200 5198
+Performing system checks...
+
+System check identified no issues (0 silenced).
+May 25, 2018 - 15:16:29
+Django version 1.11.11, using settings 'sepo_server.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W001) Your URL pattern '^$' uses include with a regex ending with a '$'. Remove the dollar from the regex to avoid problems including URLs.
+
+System check identified 1 issue (0 silenced).
+[25/May/2018 15:17:54] "GET /post/view/3/ HTTP/1.1" 200 2790
+[25/May/2018 15:17:55] "GET /post/view/3/login-header-menu.css HTTP/1.1" 200 2790
+[25/May/2018 15:17:55] "GET /post/view/3/lecture.css HTTP/1.1" 200 2790
+[25/May/2018 15:17:55] "GET /post/view/3/wrapper.css HTTP/1.1" 200 2790
+[25/May/2018 15:17:55] "GET /post/view/3/logo_typeB_1.png HTTP/1.1" 200 2790
+[25/May/2018 15:36:35] "GET / HTTP/1.1" 200 5198
+Not Found: /login-header-menu.css
+Not Found: /lecture.css
+[25/May/2018 15:36:35] "GET /login-header-menu.css HTTP/1.1" 404 2665
+Not Found: /mainPage-style.css
+[25/May/2018 15:36:35] "GET /lecture.css HTTP/1.1" 404 2635
+Not Found: /table.css
+[25/May/2018 15:36:35] "GET /mainPage-style.css HTTP/1.1" 404 2656
+Not Found: /wrapper.css
+[25/May/2018 15:36:35] "GET /table.css HTTP/1.1" 404 2629
+[25/May/2018 15:36:35] "GET /wrapper.css HTTP/1.1" 404 2635
+Not Found: /logo_typeB_1.png
+[25/May/2018 15:36:35] "GET /logo_typeB_1.png HTTP/1.1" 404 2650
+Not Found: /icons.png
+[25/May/2018 15:36:35] "GET /icons.png HTTP/1.1" 404 2629
+[25/May/2018 15:36:42] "GET /admin/ HTTP/1.1" 200 9214
+[25/May/2018 15:36:43] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[25/May/2018 15:36:43] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[25/May/2018 15:36:43] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[25/May/2018 15:36:43] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[25/May/2018 15:36:43] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[25/May/2018 15:36:45] "GET /admin/writer/mymodel/ HTTP/1.1" 200 6113
+[25/May/2018 15:36:45] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[25/May/2018 15:36:45] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6591
+[25/May/2018 15:36:45] "GET /static/admin/js/core.js HTTP/1.1" 200 7976
+[25/May/2018 15:36:45] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[25/May/2018 15:36:45] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 15:36:45] "GET /static/admin/js/actions.js HTTP/1.1" 200 6501
+[25/May/2018 15:36:45] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8186
+[25/May/2018 15:36:45] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[25/May/2018 15:36:45] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[25/May/2018 15:36:45] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[25/May/2018 15:36:45] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[25/May/2018 15:36:47] "GET /admin/ HTTP/1.1" 200 9214
+[25/May/2018 15:36:50] "GET /admin/flatpages/flatpage/ HTTP/1.1" 200 4156
+[25/May/2018 15:36:50] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[25/May/2018 15:36:50] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 15:36:51] "GET /admin/ HTTP/1.1" 200 9214
+Performing system checks...
+
+May 25, 2018 - 15:17:46
+Django version 1.11.11, using settings 'sepo_server.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f37b2fac5f0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 124, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/sepo_server/urls.py", line 21, in <module>
+    from django_markdown import flatpages
+  File "/usr/local/lib/python2.7/dist-packages/django_markdown/flatpages.py", line 5, in <module>
+    from django.contrib.flatpages.admin import FlatpageForm, FlatPageAdmin
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/flatpages/admin.py", line 2, in <module>
+    from django.contrib.flatpages.forms import FlatpageForm
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/flatpages/forms.py", line 3, in <module>
+    from django.contrib.flatpages.models import FlatPage
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/flatpages/models.py", line 11, in <module>
+    class FlatPage(models.Model):
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 118, in __new__
+    "INSTALLED_APPS." % (module, name)
+RuntimeError: Model class django.contrib.flatpages.models.FlatPage doesn't declare an explicit app_label and isn't in an application in INSTALLED_APPS.
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W001) Your URL pattern '^$' uses include with a regex ending with a '$'. Remove the dollar from the regex to avoid problems including URLs.
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+May 25, 2018 - 15:51:22
+Django version 1.11.11, using settings 'sepo_server.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7f5a1b56c668>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 116, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/registry.py", line 108, in populate
+    app_config.import_models()
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/config.py", line 202, in import_models
+    self.models_module = import_module(models_module_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/problem/models.py", line 10
+    
+    ^
+IndentationError: expected an indented block
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W001) Your URL pattern '^$' uses include with a regex ending with a '$'. Remove the dollar from the regex to avoid problems including URLs.
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+May 25, 2018 - 16:40:50
+Django version 1.11.11, using settings 'sepo_server.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W001) Your URL pattern '^$' uses include with a regex ending with a '$'. Remove the dollar from the regex to avoid problems including URLs.
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+May 25, 2018 - 16:41:50
+Django version 1.11.11, using settings 'sepo_server.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7ff17ae53398>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 116, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/registry.py", line 116, in populate
+    app_config.ready()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/apps.py", line 23, in ready
+    self.module.autodiscover()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/__init__.py", line 26, in autodiscover
+    autodiscover_modules('admin', register_to=site)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/module_loading.py", line 50, in autodiscover_modules
+    import_module('%s.%s' % (app_config.name, module_to_search))
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/problem/admin.py", line 5, in <module>
+    from problem.Models import ProblemModel
+ImportError: No module named Models
+Unhandled exception in thread started by <function wrapper at 0x7ff8686842a8>
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 116, in inner_run
+    autoreload.raise_last_exception()
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 251, in raise_last_exception
+    six.reraise(*_exception)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/__init__.py", line 27, in setup
+    apps.populate(settings.INSTALLED_APPS)
+  File "/usr/local/lib/python2.7/dist-packages/django/apps/registry.py", line 116, in populate
+    app_config.ready()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/apps.py", line 23, in ready
+    self.module.autodiscover()
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/__init__.py", line 26, in autodiscover
+    autodiscover_modules('admin', register_to=site)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/module_loading.py", line 50, in autodiscover_modules
+    import_module('%s.%s' % (app_config.name, module_to_search))
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/problem/admin.py", line 9, in <module>
+    admin.site.register(ProblemModel)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/sites.py", line 103, in register
+    for model in model_or_iterable:
+TypeError: 'classobj' object is not iterable
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W001) Your URL pattern '^$' uses include with a regex ending with a '$'. Remove the dollar from the regex to avoid problems including URLs.
+
+System check identified 1 issue (0 silenced).
+[25/May/2018 16:46:07] "GET / HTTP/1.1" 200 5198
+Not Found: /login-header-menu.css
+Not Found: /lecture.css
+Not Found: /mainPage-style.css
+[25/May/2018 16:46:07] "GET /lecture.css HTTP/1.1" 404 2635
+Not Found: /wrapper.css
+[25/May/2018 16:46:07] "GET /login-header-menu.css HTTP/1.1" 404 2665
+Not Found: /table.css
+[25/May/2018 16:46:07] "GET /wrapper.css HTTP/1.1" 404 2635
+[25/May/2018 16:46:07] "GET /table.css HTTP/1.1" 404 2629
+[25/May/2018 16:46:07] "GET /mainPage-style.css HTTP/1.1" 404 2656
+Not Found: /logo_typeB_1.png
+Not Found: /icons.png
+[25/May/2018 16:46:07] "GET /icons.png HTTP/1.1" 404 2629
+[25/May/2018 16:46:07] "GET /logo_typeB_1.png HTTP/1.1" 404 2650
+[25/May/2018 16:46:11] "GET /admin/ HTTP/1.1" 200 9197
+[25/May/2018 16:46:13] "GET /admin/problem/problemmodel/ HTTP/1.1" 200 3116
+[25/May/2018 16:46:13] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 16:46:14] "GET /admin/problem/problemmodel/add/ HTTP/1.1" 200 4874
+[25/May/2018 16:46:15] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 16:46:15] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[25/May/2018 16:46:15] "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+[25/May/2018 16:46:15] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[25/May/2018 16:46:15] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[25/May/2018 16:46:25] "GET /admin/problem/problemmodel/ HTTP/1.1" 200 3116
+[25/May/2018 16:46:25] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[25/May/2018 16:46:26] "GET /admin/ HTTP/1.1" 200 9197
+Performing system checks...
+
+May 25, 2018 - 16:45:37
+Django version 1.11.11, using settings 'sepo_server.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W001) Your URL pattern '^$' uses include with a regex ending with a '$'. Remove the dollar from the regex to avoid problems including URLs.
+
+System check identified 1 issue (0 silenced).
+[25/May/2018 20:23:09] "GET / HTTP/1.1" 200 5198
+Not Found: /login-header-menu.css
+Not Found: /wrapper.css
+Not Found: /lecture.css
+Not Found: /mainPage-style.css
+[25/May/2018 20:23:09] "GET /lecture.css HTTP/1.1" 404 2635
+[25/May/2018 20:23:09] "GET /login-header-menu.css HTTP/1.1" 404 2665
+[25/May/2018 20:23:09] "GET /wrapper.css HTTP/1.1" 404 2635
+[25/May/2018 20:23:09] "GET /mainPage-style.css HTTP/1.1" 404 2656
+Not Found: /table.css
+[25/May/2018 20:23:09] "GET /table.css HTTP/1.1" 404 2629
+Not Found: /logo_typeB_1.png
+[25/May/2018 20:23:10] "GET /logo_typeB_1.png HTTP/1.1" 404 2650
+Not Found: /icons.png
+[25/May/2018 20:23:10] "GET /icons.png HTTP/1.1" 404 2629
+[25/May/2018 20:23:13] "GET /admin HTTP/1.1" 301 0
+[25/May/2018 20:23:13] "GET /admin/ HTTP/1.1" 200 9197
+[25/May/2018 20:23:13] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[25/May/2018 20:23:13] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[25/May/2018 20:23:13] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[25/May/2018 20:23:13] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[25/May/2018 20:23:13] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[25/May/2018 20:23:13] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[25/May/2018 20:23:13] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[25/May/2018 20:23:18] "GET /admin/auth/user/ HTTP/1.1" 200 9605
+[25/May/2018 20:23:18] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[25/May/2018 20:23:18] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 20:23:18] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[25/May/2018 20:23:18] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[25/May/2018 20:23:18] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[25/May/2018 20:23:18] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[25/May/2018 20:23:18] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[25/May/2018 20:23:37] "POST /admin/auth/user/ HTTP/1.1" 200 4431
+[25/May/2018 20:23:37] "GET /static/admin/js/cancel.js HTTP/1.1" 200 204
+[25/May/2018 20:23:46] "POST /admin/auth/user/ HTTP/1.1" 302 0
+[25/May/2018 20:23:46] "GET /admin/auth/user/ HTTP/1.1" 200 7245
+[25/May/2018 20:23:46] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+Performing system checks...
+
+May 25, 2018 - 20:07:49
+Django version 1.11.11, using settings 'sepo_server.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W001) Your URL pattern '^$' uses include with a regex ending with a '$'. Remove the dollar from the regex to avoid problems including URLs.
+
+System check identified 1 issue (0 silenced).
+Invalid HTTP_HOST header: 'www.baidu.com'. You may need to add u'www.baidu.com' to ALLOWED_HOSTS.
+[25/May/2018 20:30:22] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 400 61512
+Performing system checks...
+
+May 25, 2018 - 20:24:55
+Django version 1.11.11, using settings 'sepo_server.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7ffff1a429b0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 124, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/sepo_server/urls.py", line 28, in <module>
+    url(r'^user/', include('user_manager.urls')),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 50, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/user_manager/urls.py", line 3, in <module>
+    from user_manager.views import login,login_validate, join
+  File "/home/team6/djangoproject/sepo_server/user_manager/views.py", line 55
+    Score.objects.create(username = usern)
+                                         ^
+IndentationError: unindent does not match any outer indentation level
+Unhandled exception in thread started by <function wrapper at 0x7ffff1a429b0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 124, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/sepo_server/urls.py", line 28, in <module>
+    url(r'^user/', include('user_manager.urls')),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 50, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/user_manager/urls.py", line 3, in <module>
+    from user_manager.views import login,login_validate, join
+  File "/home/team6/djangoproject/sepo_server/user_manager/views.py", line 55
+    Score.objects.create(username = usern)
+                                         ^
+IndentationError: unindent does not match any outer indentation level
+Unhandled exception in thread started by <function wrapper at 0x7ffff1a429b0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 124, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/sepo_server/urls.py", line 28, in <module>
+    url(r'^user/', include('user_manager.urls')),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 50, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/user_manager/urls.py", line 3, in <module>
+    from user_manager.views import login,login_validate, join
+  File "/home/team6/djangoproject/sepo_server/user_manager/views.py", line 55
+    Score.objects.create(username = usern)
+                                         ^
+IndentationError: unindent does not match any outer indentation level
+Unhandled exception in thread started by <function wrapper at 0x7ffff1a429b0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 124, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/sepo_server/urls.py", line 28, in <module>
+    url(r'^user/', include('user_manager.urls')),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 50, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/user_manager/urls.py", line 3, in <module>
+    from user_manager.views import login,login_validate, join
+  File "/home/team6/djangoproject/sepo_server/user_manager/views.py", line 55
+    Score.objects.create(username = usern)
+                                         ^
+IndentationError: unindent does not match any outer indentation level
+Unhandled exception in thread started by <function wrapper at 0x7ffff1a429b0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 124, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/sepo_server/urls.py", line 28, in <module>
+    url(r'^user/', include('user_manager.urls')),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 50, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/user_manager/urls.py", line 3, in <module>
+    from user_manager.views import login,login_validate, join
+  File "/home/team6/djangoproject/sepo_server/user_manager/views.py", line 55
+    Score.objects.create(username = usern)
+                                         ^
+IndentationError: unindent does not match any outer indentation level
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W001) Your URL pattern '^$' uses include with a regex ending with a '$'. Remove the dollar from the regex to avoid problems including URLs.
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+May 25, 2018 - 20:38:51
+Django version 1.11.11, using settings 'sepo_server.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7ffff1a429b0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 124, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/sepo_server/urls.py", line 28, in <module>
+    url(r'^user/', include('user_manager.urls')),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 50, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/user_manager/urls.py", line 3, in <module>
+    from user_manager.views import login,login_validate, join
+  File "/home/team6/djangoproject/sepo_server/user_manager/views.py", line 55
+    Score.objects.create(username = usern)
+                                         ^
+IndentationError: unindent does not match any outer indentation level
+Unhandled exception in thread started by <function wrapper at 0x7ffff1a429b0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 124, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/sepo_server/urls.py", line 28, in <module>
+    url(r'^user/', include('user_manager.urls')),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 50, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/user_manager/urls.py", line 3, in <module>
+    from user_manager.views import login,login_validate, join
+  File "/home/team6/djangoproject/sepo_server/user_manager/views.py", line 55
+    Score.objects.create(username = usern)
+    ^
+IndentationError: unexpected indent
+Unhandled exception in thread started by <function wrapper at 0x7ffff1a429b0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 124, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/sepo_server/urls.py", line 28, in <module>
+    url(r'^user/', include('user_manager.urls')),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 50, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/user_manager/urls.py", line 3, in <module>
+    from user_manager.views import login,login_validate, join
+  File "/home/team6/djangoproject/sepo_server/user_manager/views.py", line 56
+    return redirect('/user/login/')
+    ^
+IndentationError: unexpected indent
+Unhandled exception in thread started by <function wrapper at 0x7ffff1a429b0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 124, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/sepo_server/urls.py", line 28, in <module>
+    url(r'^user/', include('user_manager.urls')),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 50, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/user_manager/urls.py", line 3, in <module>
+    from user_manager.views import login,login_validate, join
+  File "/home/team6/djangoproject/sepo_server/user_manager/views.py", line 56
+    return redirect('/user/login/')
+    ^
+IndentationError: unexpected indent
+Unhandled exception in thread started by <function wrapper at 0x7ffff1a429b0>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 124, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/sepo_server/urls.py", line 28, in <module>
+    url(r'^user/', include('user_manager.urls')),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 50, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/user_manager/urls.py", line 3, in <module>
+    from user_manager.views import login,login_validate, join
+  File "/home/team6/djangoproject/sepo_server/user_manager/views.py", line 54
+    User.objects.create_user(usern, '', passw)
+                                             ^
+IndentationError: unindent does not match any outer indentation level
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W001) Your URL pattern '^$' uses include with a regex ending with a '$'. Remove the dollar from the regex to avoid problems including URLs.
+
+System check identified 1 issue (0 silenced).
+[25/May/2018 20:51:45] "GET / HTTP/1.1" 200 5198
+Not Found: /login-header-menu.css
+Not Found: /mainPage-style.css
+Not Found: /lecture.css
+Not Found: /table.css
+[25/May/2018 20:51:45] "GET /login-header-menu.css HTTP/1.1" 404 2665
+Not Found: /wrapper.css
+[25/May/2018 20:51:45] "GET /mainPage-style.css HTTP/1.1" 404 2656
+[25/May/2018 20:51:45] "GET /lecture.css HTTP/1.1" 404 2635
+[25/May/2018 20:51:45] "GET /wrapper.css HTTP/1.1" 404 2635
+[25/May/2018 20:51:45] "GET /table.css HTTP/1.1" 404 2629
+Not Found: /logo_typeB_1.png
+[25/May/2018 20:51:45] "GET /logo_typeB_1.png HTTP/1.1" 404 2650
+Not Found: /icons.png
+[25/May/2018 20:51:45] "GET /icons.png HTTP/1.1" 404 2629
+[25/May/2018 20:51:59] "GET /admin/ HTTP/1.1" 200 8925
+[25/May/2018 20:52:13] "GET /user/join HTTP/1.1" 301 0
+[25/May/2018 20:52:13] "GET /user/join/ HTTP/1.1" 200 3224
+[25/May/2018 20:52:13] "GET /static/lecture.css HTTP/1.1" 200 270
+[25/May/2018 20:52:13] "GET /static/mainPage-style.css HTTP/1.1" 200 268
+[25/May/2018 20:52:13] "GET /static/login-header-menu.css HTTP/1.1" 200 766
+[25/May/2018 20:52:13] "GET /static/wrapper.css HTTP/1.1" 200 152
+[25/May/2018 20:52:13] "GET /static/table.css HTTP/1.1" 200 591
+[25/May/2018 20:52:14] "GET /static/logo_typeB_1.png HTTP/1.1" 200 415311
+[25/May/2018 20:52:21] "POST /user/join/ HTTP/1.1" 302 0
+[25/May/2018 20:52:21] "GET /user/login/ HTTP/1.1" 200 3685
+[25/May/2018 21:05:19] "GET / HTTP/1.1" 200 5198
+Not Found: /login-header-menu.css
+Not Found: /lecture.css
+Not Found: /mainPage-style.css
+[25/May/2018 21:05:19] "GET /lecture.css HTTP/1.1" 404 2635
+[25/May/2018 21:05:19] "GET /mainPage-style.css HTTP/1.1" 404 2656
+[25/May/2018 21:05:19] "GET /login-header-menu.css HTTP/1.1" 404 2665
+Not Found: /wrapper.css
+[25/May/2018 21:05:19] "GET /wrapper.css HTTP/1.1" 404 2635
+Not Found: /table.css
+[25/May/2018 21:05:19] "GET /table.css HTTP/1.1" 404 2629
+Not Found: /logo_typeB_1.png
+[25/May/2018 21:05:19] "GET /logo_typeB_1.png HTTP/1.1" 404 2650
+Not Found: /icons.png
+[25/May/2018 21:05:19] "GET /icons.png HTTP/1.1" 404 2629
+Performing system checks...
+
+May 25, 2018 - 20:51:25
+Django version 1.11.11, using settings 'sepo_server.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W001) Your URL pattern '^$' uses include with a regex ending with a '$'. Remove the dollar from the regex to avoid problems including URLs.
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+May 25, 2018 - 21:06:41
+Django version 1.11.11, using settings 'sepo_server.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W001) Your URL pattern '^$' uses include with a regex ending with a '$'. Remove the dollar from the regex to avoid problems including URLs.
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+May 25, 2018 - 21:07:31
+Django version 1.11.11, using settings 'sepo_server.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W001) Your URL pattern '^$' uses include with a regex ending with a '$'. Remove the dollar from the regex to avoid problems including URLs.
+
+System check identified 1 issue (0 silenced).
+[25/May/2018 21:10:13] "GET / HTTP/1.1" 200 5200
+Not Found: /table.css
+Not Found: /wrapper.css
+Not Found: /mainPage-style.css
+Not Found: /login-header-menu.css
+Not Found: /lecture.css
+[25/May/2018 21:10:13] "GET /table.css HTTP/1.1" 404 2629
+[25/May/2018 21:10:13] "GET /wrapper.css HTTP/1.1" 404 2635
+[25/May/2018 21:10:13] "GET /login-header-menu.css HTTP/1.1" 404 2665
+[25/May/2018 21:10:13] "GET /mainPage-style.css HTTP/1.1" 404 2656
+[25/May/2018 21:10:13] "GET /lecture.css HTTP/1.1" 404 2635
+Not Found: /logo_typeB_1.png
+[25/May/2018 21:10:13] "GET /logo_typeB_1.png HTTP/1.1" 404 2650
+Not Found: /icons.png
+[25/May/2018 21:10:13] "GET /icons.png HTTP/1.1" 404 2629
+[25/May/2018 21:10:19] "GET / HTTP/1.1" 200 5200
+Not Found: /mainPage-style.css
+Not Found: /login-header-menu.css
+Not Found: /table.css
+Not Found: /lecture.css
+[25/May/2018 21:10:19] "GET /mainPage-style.css HTTP/1.1" 404 2656
+Not Found: /wrapper.css
+[25/May/2018 21:10:19] "GET /login-header-menu.css HTTP/1.1" 404 2665
+[25/May/2018 21:10:19] "GET /table.css HTTP/1.1" 404 2629
+[25/May/2018 21:10:19] "GET /lecture.css HTTP/1.1" 404 2635
+[25/May/2018 21:10:19] "GET /wrapper.css HTTP/1.1" 404 2635
+Not Found: /logo_typeB_1.png
+Not Found: /icons.png
+[25/May/2018 21:10:19] "GET /logo_typeB_1.png HTTP/1.1" 404 2650
+[25/May/2018 21:10:19] "GET /icons.png HTTP/1.1" 404 2629
+[25/May/2018 21:10:20] "GET / HTTP/1.1" 200 5200
+Not Found: /lecture.css
+Not Found: /wrapper.css
+Not Found: /login-header-menu.css
+[25/May/2018 21:10:20] "GET /wrapper.css HTTP/1.1" 404 2635
+Not Found: /table.css
+Not Found: /mainPage-style.css
+[25/May/2018 21:10:20] "GET /lecture.css HTTP/1.1" 404 2635
+[25/May/2018 21:10:20] "GET /login-header-menu.css HTTP/1.1" 404 2665
+[25/May/2018 21:10:20] "GET /table.css HTTP/1.1" 404 2629
+[25/May/2018 21:10:20] "GET /mainPage-style.css HTTP/1.1" 404 2656
+Not Found: /logo_typeB_1.png
+[25/May/2018 21:10:20] "GET /logo_typeB_1.png HTTP/1.1" 404 2650
+Not Found: /icons.png
+[25/May/2018 21:10:20] "GET /icons.png HTTP/1.1" 404 2629
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/team6/djangoproject/sepo_server/mainpage/views.py", line 14, in mainpage
+    template = get_template('MainPage.html')
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 509, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 571, in invalid_block_tag
+    "or load this tag?" % (token.lineno, command)
+TemplateSyntaxError: Invalid block tag on line 13: 'staitc'. Did you forget to register or load this tag?
+[25/May/2018 21:17:05] "GET / HTTP/1.1" 500 123410
+[25/May/2018 21:18:35] "GET / HTTP/1.1" 200 5248
+Not Found: /icons.png
+[25/May/2018 21:18:35] "GET /icons.png HTTP/1.1" 404 2629
+Not Found: /icons.png
+[25/May/2018 21:18:42] "GET /icons.png HTTP/1.1" 404 2629
+[25/May/2018 21:20:01] "GET / HTTP/1.1" 200 5256
+[25/May/2018 21:20:02] "GET /static/icons.png HTTP/1.1" 404 1646
+[25/May/2018 21:20:09] "GET / HTTP/1.1" 200 5256
+[25/May/2018 21:20:09] "GET /static/icons.png HTTP/1.1" 404 1646
+[25/May/2018 21:22:48] "GET / HTTP/1.1" 200 5256
+[25/May/2018 21:22:48] "GET /static/icons.png HTTP/1.1" 200 54629
+Not Found: /MainPage.html
+[25/May/2018 21:23:11] "GET /MainPage.html HTTP/1.1" 404 2641
+Performing system checks...
+
+May 25, 2018 - 21:08:21
+Django version 1.11.11, using settings 'sepo_server.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Unhandled exception in thread started by <function wrapper at 0x7ffff1a44b90>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 124, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/sepo_server/urls.py", line 30, in <module>
+    url(r'^problem/', include('problem.urls')),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 50, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/problem/urls.py", line 2, in <module>
+    from problem.views import post_problem, prob_validate
+  File "/home/team6/djangoproject/sepo_server/problem/views.py", line 6, in <module>
+    from problem.forms import PostForm
+ImportError: No module named forms
+Unhandled exception in thread started by <function wrapper at 0x7ffff1a44b90>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 124, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/sepo_server/urls.py", line 30, in <module>
+    url(r'^problem/', include('problem.urls')),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 50, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/problem/urls.py", line 2, in <module>
+    from problem.views import post_problem, prob_validate
+  File "/home/team6/djangoproject/sepo_server/problem/views.py", line 6, in <module>
+    from problem.forms import PostForm
+  File "/home/team6/djangoproject/sepo_server/problem/forms.py", line 4
+    from problem.models import 
+                              ^
+SyntaxError: invalid syntax
+Unhandled exception in thread started by <function wrapper at 0x7ffff1a44b90>
+Performing system checks...
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/autoreload.py", line 228, in wrapper
+    fn(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/commands/runserver.py", line 124, in inner_run
+    self.check(display_num_errors=True)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/usr/local/lib/python2.7/dist-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 16, in check_url_config
+    return check_resolver(resolver)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/checks/urls.py", line 26, in check_resolver
+    return check_method()
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 254, in check
+    for pattern in self.url_patterns:
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 405, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/usr/local/lib/python2.7/dist-packages/django/urls/resolvers.py", line 398, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/sepo_server/urls.py", line 30, in <module>
+    url(r'^problem/', include('problem.urls')),
+  File "/usr/local/lib/python2.7/dist-packages/django/conf/urls/__init__.py", line 50, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/lib/python2.7/importlib/__init__.py", line 37, in import_module
+    __import__(name)
+  File "/home/team6/djangoproject/sepo_server/problem/urls.py", line 2, in <module>
+    from problem.views import post_problem, prob_validate
+  File "/home/team6/djangoproject/sepo_server/problem/views.py", line 6, in <module>
+    from problem.forms import PostForm
+  File "/home/team6/djangoproject/sepo_server/problem/forms.py", line 4
+    from problem.models import 
+                              ^
+SyntaxError: invalid syntax
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W001) Your URL pattern '^$' uses include with a regex ending with a '$'. Remove the dollar from the regex to avoid problems including URLs.
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+May 25, 2018 - 21:56:19
+Django version 1.11.11, using settings 'sepo_server.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W001) Your URL pattern '^$' uses include with a regex ending with a '$'. Remove the dollar from the regex to avoid problems including URLs.
+
+System check identified 1 issue (0 silenced).
+[25/May/2018 21:57:33] "GET / HTTP/1.1" 200 5256
+[25/May/2018 21:57:33] "GET /static/icons.png HTTP/1.1" 200 54629
+Not Found: /Rank.html
+[25/May/2018 21:57:58] "GET /Rank.html HTTP/1.1" 404 2738
+Internal Server Error: /user/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/team6/djangoproject/sepo_server/user_manager/views.py", line 19, in login
+    template = get_template('TopRight.html')
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 515, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: The relative path '"../repeat_templates/LoginPage.html"' points outside the file hierarchy that template 'TopRight.html' is in.
+[25/May/2018 22:02:18] "GET /user/login/ HTTP/1.1" 500 105087
+Internal Server Error: /user/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/team6/djangoproject/sepo_server/user_manager/views.py", line 19, in login
+    template = get_template('TopRight.html')
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 515, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: The relative path '"../../repeat_templates/LoginPage.html"' points outside the file hierarchy that template 'TopRight.html' is in.
+[25/May/2018 22:03:45] "GET /user/login/ HTTP/1.1" 500 105264
+Internal Server Error: /user/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/team6/djangoproject/sepo_server/user_manager/views.py", line 19, in login
+    template = get_template('TopRight.html')
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 515, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: The relative path '"../../repeat_templates/LoginPage.html"' points outside the file hierarchy that template 'TopRight.html' is in.
+[25/May/2018 22:18:01] "GET /user/login/ HTTP/1.1" 500 105165
+Not Found: /favicon.ico
+[25/May/2018 22:18:02] "GET /favicon.ico HTTP/1.1" 404 2744
+[25/May/2018 22:18:05] "GET / HTTP/1.1" 200 5256
+[25/May/2018 22:18:05] "GET /static/icons.png HTTP/1.1" 200 54629
+[25/May/2018 22:18:10] "GET / HTTP/1.1" 200 5256
+Not Found: /Lecture.html
+[25/May/2018 22:18:21] "GET /Lecture.html HTTP/1.1" 404 2747
+Not Found: /Lecture.html
+[25/May/2018 22:18:25] "GET /Lecture.html HTTP/1.1" 404 2747
+Not Found: /Rank.html
+[25/May/2018 22:18:29] "GET /Rank.html HTTP/1.1" 404 2738
+Not Found: /community.html
+[25/May/2018 22:18:32] "GET /community.html HTTP/1.1" 404 2753
+[25/May/2018 22:18:41] "GET /admin HTTP/1.1" 301 0
+[25/May/2018 22:18:41] "GET /admin/ HTTP/1.1" 200 8925
+[25/May/2018 22:18:41] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 412
+[25/May/2018 22:18:41] "GET /static/admin/css/base.css HTTP/1.1" 200 16066
+[25/May/2018 22:18:41] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[25/May/2018 22:18:41] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[25/May/2018 22:18:41] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[25/May/2018 22:18:41] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[25/May/2018 22:18:41] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[25/May/2018 22:18:41] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[25/May/2018 22:18:41] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[25/May/2018 22:18:45] "GET /admin/writer/mymodel/ HTTP/1.1" 200 5868
+[25/May/2018 22:18:45] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6170
+[25/May/2018 22:18:45] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6591
+[25/May/2018 22:18:45] "GET /static/admin/js/core.js HTTP/1.1" 200 7976
+[25/May/2018 22:18:45] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[25/May/2018 22:18:45] "GET /static/admin/js/actions.js HTTP/1.1" 200 6501
+[25/May/2018 22:18:45] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 22:18:45] "GET /static/admin/js/urlify.js HTTP/1.1" 200 8186
+[25/May/2018 22:18:45] "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1538
+[25/May/2018 22:18:45] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 258648
+[25/May/2018 22:18:45] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+[25/May/2018 22:18:45] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[25/May/2018 22:18:47] "GET /admin/ HTTP/1.1" 200 8925
+[25/May/2018 22:18:49] "GET /admin/writer/mymodel/ HTTP/1.1" 200 5868
+[25/May/2018 22:18:49] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 22:18:55] "POST /admin/writer/mymodel/ HTTP/1.1" 200 4221
+[25/May/2018 22:18:55] "GET /static/admin/js/cancel.js HTTP/1.1" 200 204
+[25/May/2018 22:18:57] "POST /admin/writer/mymodel/ HTTP/1.1" 302 0
+[25/May/2018 22:18:57] "GET /admin/writer/mymodel/ HTTP/1.1" 200 3233
+[25/May/2018 22:18:57] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 22:18:57] "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[25/May/2018 22:19:00] "GET /admin/writer/ HTTP/1.1" 200 2228
+[25/May/2018 22:19:09] "GET /admin/writer/mymodel/ HTTP/1.1" 200 3077
+[25/May/2018 22:19:10] "GET /admin/writer/mymodel/ HTTP/1.1" 200 3077
+[25/May/2018 22:19:14] "GET / HTTP/1.1" 200 5256
+Internal Server Error: /user/login/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/team6/djangoproject/sepo_server/user_manager/views.py", line 19, in login
+    template = get_template('TopRight.html')
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loader.py", line 21, in get_template
+    return engine.get_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/backends/django.py", line 39, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/usr/local/lib/python2.7/dist-packages/django/template/engine.py", line 136, in find_template
+    name, template_dirs=dirs, skip=skip,
+  File "/usr/local/lib/python2.7/dist-packages/django/template/loaders/base.py", line 44, in get_template
+    contents, origin, origin.template_name, self.engine,
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 191, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 230, in compile_nodelist
+    return parser.parse()
+  File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 515, in parse
+    raise self.error(token, e)
+TemplateSyntaxError: The relative path '"../../repeat_templates/LoginPage.html"' points outside the file hierarchy that template 'TopRight.html' is in.
+[25/May/2018 22:19:15] "GET /user/login/ HTTP/1.1" 500 105264
+[25/May/2018 22:20:08] "GET /user/login/ HTTP/1.1" 200 3685
+[25/May/2018 22:20:18] "GET /admin/ HTTP/1.1" 200 8642
+[25/May/2018 22:20:18] "GET /admin/ HTTP/1.1" 200 8642
+[25/May/2018 22:20:21] "GET /admin/writer/mymodel/add/ HTTP/1.1" 200 8333
+[25/May/2018 22:20:21] "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+[25/May/2018 22:20:21] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 22:20:21] "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2039
+[25/May/2018 22:20:21] "GET /static/admin/js/calendar.js HTTP/1.1" 200 7790
+[25/May/2018 22:20:21] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20529
+[25/May/2018 22:20:21] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[25/May/2018 22:20:21] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[25/May/2018 22:20:21] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[25/May/2018 22:20:21] "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 624345
+[25/May/2018 22:20:22] "GET /static/ckeditor/ckeditor/config.js?t=H8DA HTTP/1.1" 200 372
+[25/May/2018 22:20:22] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[25/May/2018 22:20:22] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[25/May/2018 22:20:22] "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=H8DA HTTP/1.1" 200 46901
+[25/May/2018 22:20:22] "GET /static/ckeditor/ckeditor/lang/ko.js?t=H8DA HTTP/1.1" 200 19335
+[25/May/2018 22:20:22] "GET /static/ckeditor/ckeditor/styles.js?t=H8DA HTTP/1.1" 200 5546
+[25/May/2018 22:20:22] "GET /static/ckeditor/ckeditor/plugins/codesnippet/plugin.js?t=H8DA HTTP/1.1" 200 3824
+[25/May/2018 22:20:22] "GET /static/ckeditor/ckeditor/plugins/markdown/plugin.js?t=H8DA HTTP/1.1" 200 8651
+[25/May/2018 22:20:22] "GET /static/ckeditor/ckeditor/plugins/widget/plugin.js?t=H8DA HTTP/1.1" 200 29663
+[25/May/2018 22:20:22] "GET /static/ckeditor/ckeditor/plugins/lineutils/plugin.js?t=H8DA HTTP/1.1" 200 9203
+[25/May/2018 22:20:22] "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 200 381
+[25/May/2018 22:20:22] "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 200 1306
+[25/May/2018 22:20:22] "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 200 419
+[25/May/2018 22:20:22] "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1082
+[25/May/2018 22:20:22] "GET /static/ckeditor/ckeditor/plugins/codesnippet/lang/ko.js?t=H8DA HTTP/1.1" 200 396
+[25/May/2018 22:20:22] "GET /static/ckeditor/ckeditor/plugins/widget/lang/ko.js?t=H8DA HTTP/1.1" 200 244
+[25/May/2018 22:20:22] "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1493
+[25/May/2018 22:20:22] "GET /static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js HTTP/1.1" 200 30179
+[25/May/2018 22:20:22] "GET /static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png?t=H8DA HTTP/1.1" 200 597
+[25/May/2018 22:20:22] "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=dee99e2 HTTP/1.1" 200 12421
+[25/May/2018 22:20:22] "GET /static/ckeditor/ckeditor/plugins/markdown/icons/markdown.png?t=H8DA HTTP/1.1" 200 3026
+[25/May/2018 22:20:22] "GET /static/ckeditor/ckeditor/contents.css?t=H8DA HTTP/1.1" 200 2955
+[25/May/2018 22:20:22] "GET /static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/default.css HTTP/1.1" 200 2804
+Performing system checks...
+
+May 25, 2018 - 21:57:10
+Django version 1.11.11, using settings 'sepo_server.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W001) Your URL pattern '^$' uses include with a regex ending with a '$'. Remove the dollar from the regex to avoid problems including URLs.
+
+System check identified 1 issue (0 silenced).
+[25/May/2018 22:23:33] "GET /user/login/ HTTP/1.1" 200 3678
+[25/May/2018 22:32:42] "GET /user/login/ HTTP/1.1" 200 3678
+[25/May/2018 22:34:48] "GET /user/login/ HTTP/1.1" 200 3716
+[25/May/2018 22:35:46] "GET / HTTP/1.1" 200 5256
+[25/May/2018 22:35:46] "GET /static/icons.png HTTP/1.1" 304 0
+Not Found: /MainPage.html
+[25/May/2018 22:35:53] "GET /MainPage.html HTTP/1.1" 404 2750
+Not Found: /MainPage.html
+[25/May/2018 22:37:15] "GET /MainPage.html HTTP/1.1" 404 2750
+Not Found: /LoginPage.html
+[25/May/2018 22:37:23] "GET /LoginPage.html HTTP/1.1" 404 2753
+[25/May/2018 22:40:07] "GET /user/join/ HTTP/1.1" 200 3224
+Not Found: /user/join/MainPage.html
+[25/May/2018 22:40:11] "GET /user/join/MainPage.html HTTP/1.1" 404 3320
+[25/May/2018 22:42:34] "GET / HTTP/1.1" 200 5256
+[25/May/2018 22:42:50] "GET / HTTP/1.1" 200 5256
+[25/May/2018 22:43:00] "GET /user/login/ HTTP/1.1" 200 3735
+[25/May/2018 22:43:04] "GET / HTTP/1.1" 200 5256
+[25/May/2018 22:43:04] "GET /static/icons.png HTTP/1.1" 304 0
+[25/May/2018 22:43:05] "GET / HTTP/1.1" 200 5256
+[25/May/2018 22:43:05] "GET /static/icons.png HTTP/1.1" 304 0
+Not Found: /Lecture.html
+[25/May/2018 22:43:58] "GET /Lecture.html HTTP/1.1" 404 2747
+Not Found: /Rank.html
+[25/May/2018 22:44:05] "GET /Rank.html HTTP/1.1" 404 2738
+Not Found: /community.html
+[25/May/2018 22:44:09] "GET /community.html HTTP/1.1" 404 2753
+[25/May/2018 22:44:16] "GET /admin/ HTTP/1.1" 200 8642
+[25/May/2018 22:44:22] "GET /admin/writer/mymodel/ HTTP/1.1" 200 3077
+[25/May/2018 22:44:22] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 22:44:23] "GET /admin/ HTTP/1.1" 200 8642
+[25/May/2018 22:44:27] "GET /admin/problem/problemmodel/ HTTP/1.1" 200 3116
+[25/May/2018 22:44:27] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 22:44:29] "GET /admin/ HTTP/1.1" 200 8642
+[25/May/2018 22:44:30] "GET /admin/testsite/post/ HTTP/1.1" 200 4254
+[25/May/2018 22:44:30] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 22:44:31] "GET /admin/testsite/post/1/change/ HTTP/1.1" 200 7513
+[25/May/2018 22:44:31] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 22:44:31] "GET /static/admin/css/forms.css HTTP/1.1" 200 8173
+[25/May/2018 22:44:31] "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20529
+[25/May/2018 22:44:31] "GET /static/admin/js/calendar.js HTTP/1.1" 200 7790
+[25/May/2018 22:44:31] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[25/May/2018 22:44:31] "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+[25/May/2018 22:44:31] "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+[25/May/2018 22:44:31] "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+[25/May/2018 22:44:31] "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+[25/May/2018 22:44:32] "GET /admin/testsite/post/ HTTP/1.1" 200 4254
+[25/May/2018 22:44:34] "GET /admin/ HTTP/1.1" 200 8642
+[25/May/2018 22:44:35] "GET /admin/community/post_community/ HTTP/1.1" 200 4382
+[25/May/2018 22:44:35] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 22:44:36] "GET /admin/community/post_community/2/change/ HTTP/1.1" 200 6332
+[25/May/2018 22:44:36] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 22:44:38] "GET /admin/community/post_community/ HTTP/1.1" 200 4382
+[25/May/2018 22:44:38] "GET /admin/ HTTP/1.1" 200 8642
+[25/May/2018 22:44:39] "GET /admin/sites/site/ HTTP/1.1" 200 5055
+[25/May/2018 22:44:40] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 22:44:41] "GET /admin/ HTTP/1.1" 200 8642
+[25/May/2018 22:45:58] "GET /admin/testsite/post/ HTTP/1.1" 200 4254
+[25/May/2018 22:45:58] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 22:46:00] "GET /admin/testsite/post/1/change/ HTTP/1.1" 200 7513
+[25/May/2018 22:46:00] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 22:46:01] "GET /admin/testsite/post/ HTTP/1.1" 200 4254
+[25/May/2018 22:46:02] "GET /admin/ HTTP/1.1" 200 8642
+Not Found: /MainPage.html
+[25/May/2018 22:48:04] "GET /MainPage.html HTTP/1.1" 404 2750
+[25/May/2018 22:48:18] "GET /user/login/ HTTP/1.1" 200 3735
+[25/May/2018 22:48:22] "GET / HTTP/1.1" 200 5256
+[25/May/2018 22:48:36] "GET /user/join/ HTTP/1.1" 200 3331
+Not Found: /user/join/Lecture.html
+[25/May/2018 22:48:40] "GET /user/join/Lecture.html HTTP/1.1" 404 3317
+[25/May/2018 22:48:45] "GET /community/ HTTP/1.1" 200 2077
+[25/May/2018 22:48:56] "GET /user/join/ HTTP/1.1" 200 3331
+Performing system checks...
+
+May 25, 2018 - 22:23:30
+Django version 1.11.11, using settings 'sepo_server.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W001) Your URL pattern '^$' uses include with a regex ending with a '$'. Remove the dollar from the regex to avoid problems including URLs.
+
+System check identified 1 issue (0 silenced).
+[25/May/2018 22:49:17] "GET /admin/ HTTP/1.1" 200 7990
+[25/May/2018 22:49:22] "GET /admin/sites/site/ HTTP/1.1" 200 5055
+[25/May/2018 22:49:22] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 22:49:24] "GET /admin/sites/site/1/change/ HTTP/1.1" 200 4620
+[25/May/2018 22:49:24] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 22:49:25] "GET /admin/sites/site/ HTTP/1.1" 200 5055
+[25/May/2018 22:49:26] "GET /admin/ HTTP/1.1" 200 7990
+[25/May/2018 22:49:34] "GET /user/login/ HTTP/1.1" 200 3735
+[25/May/2018 22:49:39] "GET /admin/writer/mymodel/ HTTP/1.1" 200 3077
+[25/May/2018 22:49:39] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 22:49:40] "GET /user/join/ HTTP/1.1" 200 3278
+[25/May/2018 22:49:41] "GET /admin/ HTTP/1.1" 200 7990
+[25/May/2018 22:49:50] "GET /user/login/ HTTP/1.1" 200 3735
+[25/May/2018 22:49:56] "GET /admin/community/post_community/ HTTP/1.1" 200 4382
+[25/May/2018 22:49:56] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 22:49:57] "GET /admin/ HTTP/1.1" 200 7990
+[25/May/2018 22:50:02] "GET / HTTP/1.1" 200 5256
+Not Found: /LoginPage.html
+[25/May/2018 22:50:07] "GET /LoginPage.html HTTP/1.1" 404 2753
+Not Found: /community.html
+[25/May/2018 22:50:27] "GET /community.html HTTP/1.1" 404 2753
+[25/May/2018 22:51:58] "GET / HTTP/1.1" 200 5256
+[25/May/2018 22:51:59] "GET /static/icons.png HTTP/1.1" 304 0
+Not Found: /LoginPage.html
+[25/May/2018 22:52:03] "GET /LoginPage.html HTTP/1.1" 404 2753
+Not Found: /MainPage.html
+[25/May/2018 22:52:07] "GET /MainPage.html HTTP/1.1" 404 2750
+[25/May/2018 22:52:19] "GET /user/login/ HTTP/1.1" 200 3735
+[25/May/2018 22:52:26] "GET /user/join/ HTTP/1.1" 200 3320
+[25/May/2018 22:52:30] "GET /user/login/ HTTP/1.1" 200 3735
+[25/May/2018 22:52:34] "GET /user/join/ HTTP/1.1" 200 3320
+[25/May/2018 22:52:38] "GET /user/join/ HTTP/1.1" 200 3320
+[25/May/2018 22:53:46] "GET /admin/ HTTP/1.1" 200 7990
+[25/May/2018 22:53:48] "GET /admin/logout/ HTTP/1.1" 200 1009
+[25/May/2018 22:53:49] "GET /admin/ HTTP/1.1" 302 0
+[25/May/2018 22:53:49] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1667
+[25/May/2018 22:53:49] "GET /static/admin/css/login.css HTTP/1.1" 200 1203
+[25/May/2018 22:53:54] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[25/May/2018 22:53:54] "GET /admin/ HTTP/1.1" 200 7990
+[25/May/2018 22:53:59] "GET /admin/logout/ HTTP/1.1" 200 1009
+[25/May/2018 22:54:00] "GET /admin/ HTTP/1.1" 302 0
+[25/May/2018 22:54:00] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1667
+[25/May/2018 22:54:05] "POST /admin/login/?next=/admin/ HTTP/1.1" 200 1841
+[25/May/2018 22:54:10] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[25/May/2018 22:54:10] "GET /admin/ HTTP/1.1" 200 7990
+[25/May/2018 22:54:24] "GET /admin/writer/mymodel/add/ HTTP/1.1" 200 8333
+[25/May/2018 22:54:24] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 22:54:44] "GET / HTTP/1.1" 200 5256
+Not Found: /lecture
+[25/May/2018 22:55:00] "GET /lecture HTTP/1.1" 404 2732
+[25/May/2018 22:55:02] "GET /static/ckeditor/ckeditor/plugins/markdown/js/marked.js HTTP/1.1" 200 19513
+[25/May/2018 22:55:02] "GET /static/ckeditor/ckeditor/plugins/markdown/js/to-markdown.js HTTP/1.1" 200 18243
+[25/May/2018 22:55:02] "GET /static/ckeditor/ckeditor/plugins/markdown/css/codemirror.min.css HTTP/1.1" 200 8627
+[25/May/2018 22:55:02] "GET /static/ckeditor/ckeditor/plugins/markdown/js/codemirror-gfm-min.js HTTP/1.1" 200 199075
+[25/May/2018 22:55:16] "POST /admin/writer/mymodel/add/ HTTP/1.1" 200 8519
+[25/May/2018 22:55:16] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 22:55:35] "GET /static/ckeditor/ckeditor/plugins/widget/images/handle.png HTTP/1.1" 200 220
+[25/May/2018 22:59:06] "GET /static/ckeditor/ckeditor/plugins/link/images/anchor.png?t=H8DA HTTP/1.1" 200 752
+[25/May/2018 22:59:43] "GET /user/login/ HTTP/1.1" 200 3735
+[25/May/2018 22:59:46] "POST /user/login/validate/ HTTP/1.1" 302 0
+[25/May/2018 22:59:46] "GET /community/ HTTP/1.1" 200 2077
+Not Found: /lecture/
+[25/May/2018 22:59:51] "GET /lecture/ HTTP/1.1" 404 2735
+Not Found: /post/2
+[25/May/2018 23:02:25] "GET /post/2 HTTP/1.1" 404 3373
+[25/May/2018 23:03:42] "GET / HTTP/1.1" 200 5256
+[25/May/2018 23:03:42] "GET /static/icons.png HTTP/1.1" 304 0
+Not Found: /Lecture.html
+[25/May/2018 23:03:46] "GET /Lecture.html HTTP/1.1" 404 2747
+[25/May/2018 23:03:52] "GET / HTTP/1.1" 200 5256
+Not Found: /Lecture.html
+[25/May/2018 23:04:03] "GET /Lecture.html HTTP/1.1" 404 2747
+Not Found: /MainPage.html
+[25/May/2018 23:04:31] "GET /MainPage.html HTTP/1.1" 404 2750
+Not Found: /MainPage.html
+[25/May/2018 23:04:34] "GET /MainPage.html HTTP/1.1" 404 2750
+Not Found: /community/MainPage.html
+[25/May/2018 23:04:40] "GET /community/MainPage.html HTTP/1.1" 404 2829
+Forbidden (CSRF token missing or incorrect.): /admin/writer/mymodel/add/
+[25/May/2018 23:05:32] "POST /admin/writer/mymodel/add/ HTTP/1.1" 403 2527
+[25/May/2018 23:05:42] "GET /admin/ HTTP/1.1" 200 7990
+[25/May/2018 23:05:45] "GET /admin/writer/mymodel/ HTTP/1.1" 200 3077
+[25/May/2018 23:05:45] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 23:05:46] "GET /admin/writer/mymodel/add/ HTTP/1.1" 200 8333
+[25/May/2018 23:05:46] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/SocketServer.py", line 596, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python2.7/SocketServer.py", line 652, in __init__
+    self.handle()
+  File "/usr/local/lib/python2.7/dist-packages/django/core/servers/basehttp.py", line 140, in handle
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python2.7/socket.py", line 480, in readline
+    data = self._sock.recv(self._rbufsize)
+error: [Errno 104] Connection reset by peer
+Internal Server Error: /admin/writer/mymodel/add/
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py", line 551, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/sites.py", line 224, in inner
+    return view(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py", line 1508, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/utils/decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py", line 1408, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py", line 1448, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/usr/local/lib/python2.7/dist-packages/django/contrib/admin/options.py", line 979, in save_model
+    obj.save()
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 808, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 838, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 924, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/base.py", line 963, in _do_insert
+    using=using, raw=raw)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/query.py", line 1076, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/models/sql/compiler.py", line 1112, in execute_sql
+    cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "/usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py", line 101, in execute
+    return self.cursor.execute(query, args)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/cursors.py", line 226, in execute
+    self.errorhandler(self, exc, value)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 36, in defaulterrorhandler
+    raise errorvalue
+OperationalError: (1366, "Incorrect string value: '\\xF0\\x9F\\x98\\x98</...' for column 'text' at row 1")
+[25/May/2018 23:05:54] "POST /admin/writer/mymodel/add/ HTTP/1.1" 500 290104
+[25/May/2018 23:06:23] "GET /admin/writer/mymodel/add/ HTTP/1.1" 200 8333
+[25/May/2018 23:06:43] "POST /admin/writer/mymodel/add/ HTTP/1.1" 302 0
+[25/May/2018 23:06:43] "GET /admin/writer/mymodel/ HTTP/1.1" 200 4496
+[25/May/2018 23:06:43] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 23:06:46] "GET /admin/writer/mymodel/10/change/ HTTP/1.1" 200 38717
+[25/May/2018 23:06:46] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 23:06:48] "GET /admin/writer/mymodel/ HTTP/1.1" 200 4291
+[25/May/2018 23:06:50] "GET /admin/writer/mymodel/10/change/ HTTP/1.1" 200 38717
+[25/May/2018 23:06:50] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 23:06:55] "GET /admin/writer/mymodel/10 HTTP/1.1" 301 0
+[25/May/2018 23:06:55] "GET /admin/writer/mymodel/10/ HTTP/1.1" 302 0
+[25/May/2018 23:06:55] "GET /admin/writer/mymodel/10/change/ HTTP/1.1" 200 38717
+[25/May/2018 23:06:55] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 23:07:40] "POST /admin/writer/mymodel/10/change/ HTTP/1.1" 302 0
+[25/May/2018 23:07:40] "GET /admin/writer/mymodel/ HTTP/1.1" 200 4496
+[25/May/2018 23:07:40] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 23:07:45] "GET /admin/ HTTP/1.1" 200 8095
+[25/May/2018 23:07:47] "GET /admin/writer/mymodel/ HTTP/1.1" 200 4291
+[25/May/2018 23:07:47] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 23:07:49] "GET / HTTP/1.1" 200 5256
+[25/May/2018 23:08:13] "GET /admin/writer/mymodel/10/change/ HTTP/1.1" 200 38717
+[25/May/2018 23:08:13] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 23:08:18] "GET /admin/writer/mymodel/10/history/ HTTP/1.1" 200 2344
+[25/May/2018 23:08:20] "GET /admin/writer/mymodel/10/change/ HTTP/1.1" 200 38717
+[25/May/2018 23:08:49] "GET /admin/ HTTP/1.1" 200 8095
+[25/May/2018 23:08:53] "GET /admin/problem/problemmodel/ HTTP/1.1" 200 3116
+[25/May/2018 23:08:53] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 23:08:54] "GET /admin/ HTTP/1.1" 200 8095
+[25/May/2018 23:08:57] "GET /admin/writer/mymodel/ HTTP/1.1" 200 4291
+[25/May/2018 23:08:57] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 23:08:59] "GET /admin/writer/mymodel/10/change/ HTTP/1.1" 200 38717
+[25/May/2018 23:08:59] "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 2039
+[25/May/2018 23:08:59] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 23:08:59] "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 624345
+[25/May/2018 23:08:59] "GET /static/ckeditor/ckeditor/config.js?t=H8DA HTTP/1.1" 200 372
+[25/May/2018 23:08:59] "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=H8DA HTTP/1.1" 200 46901
+[25/May/2018 23:08:59] "GET /static/ckeditor/ckeditor/lang/ko.js?t=H8DA HTTP/1.1" 200 19335
+[25/May/2018 23:08:59] "GET /static/ckeditor/ckeditor/styles.js?t=H8DA HTTP/1.1" 200 5546
+[25/May/2018 23:08:59] "GET /static/ckeditor/ckeditor/plugins/markdown/plugin.js?t=H8DA HTTP/1.1" 200 8651
+[25/May/2018 23:08:59] "GET /static/ckeditor/ckeditor/plugins/codesnippet/plugin.js?t=H8DA HTTP/1.1" 200 3824
+[25/May/2018 23:08:59] "GET /static/ckeditor/ckeditor/plugins/widget/plugin.js?t=H8DA HTTP/1.1" 200 29663
+[25/May/2018 23:08:59] "GET /static/ckeditor/ckeditor/plugins/lineutils/plugin.js?t=H8DA HTTP/1.1" 200 9203
+[25/May/2018 23:08:59] "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css HTTP/1.1" 200 381
+[25/May/2018 23:08:59] "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css HTTP/1.1" 200 419
+[25/May/2018 23:08:59] "GET /static/ckeditor/ckeditor/plugins/codesnippet/lang/ko.js?t=H8DA HTTP/1.1" 200 396
+[25/May/2018 23:08:59] "GET /static/ckeditor/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css HTTP/1.1" 200 1306
+[25/May/2018 23:08:59] "GET /static/ckeditor/ckeditor/plugins/widget/lang/ko.js?t=H8DA HTTP/1.1" 200 244
+[25/May/2018 23:08:59] "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css HTTP/1.1" 200 1082
+[25/May/2018 23:08:59] "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css HTTP/1.1" 200 1493
+[25/May/2018 23:08:59] "GET /static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js HTTP/1.1" 200 30179
+[25/May/2018 23:09:00] "GET /static/ckeditor/ckeditor/contents.css?t=H8DA HTTP/1.1" 200 2955
+[25/May/2018 23:09:00] "GET /static/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/default.css HTTP/1.1" 200 2804
+[25/May/2018 23:09:00] "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=dee99e2 HTTP/1.1" 200 12421
+[25/May/2018 23:09:00] "GET /static/ckeditor/ckeditor/plugins/codesnippet/icons/codesnippet.png?t=H8DA HTTP/1.1" 200 597
+[25/May/2018 23:09:00] "GET /static/ckeditor/ckeditor/plugins/markdown/icons/markdown.png?t=H8DA HTTP/1.1" 200 3026
+[25/May/2018 23:09:00] "GET /static/ckeditor/ckeditor/plugins/widget/images/handle.png HTTP/1.1" 200 220
+[25/May/2018 23:09:03] "GET /admin/writer/mymodel/ HTTP/1.1" 200 4291
+[25/May/2018 23:09:05] "GET /admin/writer/mymodel/10/change/ HTTP/1.1" 200 38717
+[25/May/2018 23:09:05] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 23:09:09] "GET /admin/writer/mymodel/ HTTP/1.1" 200 4291
+[25/May/2018 23:09:23] "GET /admin/writer/mymodel/10/change/ HTTP/1.1" 200 38717
+[25/May/2018 23:09:23] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 23:09:36] "GET /admin/writer/mymodel/ HTTP/1.1" 200 4291
+[25/May/2018 23:10:20] "GET /admin/writer/mymodel/10/change/ HTTP/1.1" 200 38717
+[25/May/2018 23:10:20] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 23:11:04] "POST /admin/writer/mymodel/10/change/ HTTP/1.1" 302 0
+[25/May/2018 23:11:04] "GET /admin/writer/mymodel/ HTTP/1.1" 200 4496
+[25/May/2018 23:11:04] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 23:11:06] "GET /admin/writer/ HTTP/1.1" 200 2228
+[25/May/2018 23:11:07] "GET /admin/writer/mymodel/ HTTP/1.1" 200 4291
+[25/May/2018 23:11:07] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 23:11:08] "GET /admin/writer/ HTTP/1.1" 200 2228
+[25/May/2018 23:11:10] "GET /admin/ HTTP/1.1" 200 8140
+[25/May/2018 23:11:15] "GET /admin/auth/user/ HTTP/1.1" 200 7504
+[25/May/2018 23:11:15] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 23:11:15] "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[25/May/2018 23:11:15] "GET /static/admin/img/icon-no.svg HTTP/1.1" 200 560
+[25/May/2018 23:11:15] "GET /static/admin/img/sorting-icons.svg HTTP/1.1" 200 1097
+[25/May/2018 23:11:24] "GET /admin/auth/user/add/ HTTP/1.1" 200 5657
+[25/May/2018 23:11:24] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 23:11:29] "GET /admin/auth/user/ HTTP/1.1" 200 7504
+[25/May/2018 23:11:33] "GET /admin/ HTTP/1.1" 200 8140
+[25/May/2018 23:11:35] "GET /admin/problem/problemmodel/ HTTP/1.1" 200 3116
+[25/May/2018 23:11:35] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 23:11:36] "GET /admin/ HTTP/1.1" 200 8140
+Not Found: /MainPage.html
+[25/May/2018 23:14:19] "GET /MainPage.html HTTP/1.1" 404 2750
+[25/May/2018 23:14:28] "GET /admin/ HTTP/1.1" 200 8140
+[25/May/2018 23:14:32] "GET /post/view/1 HTTP/1.1" 301 0
+Not Found: /post/view/1/
+[25/May/2018 23:14:32] "GET /post/view/1/ HTTP/1.1" 404 1728
+[25/May/2018 23:14:48] "GET /admin/writer/mymodel/ HTTP/1.1" 200 4291
+[25/May/2018 23:16:04] "GET /post/view/10 HTTP/1.1" 301 0
+[25/May/2018 23:16:04] "GET /post/view/10/ HTTP/1.1" 200 32777
+[25/May/2018 23:16:04] "GET /post/view/10/login-header-menu.css HTTP/1.1" 200 32777
+[25/May/2018 23:16:04] "GET /post/view/10/lecture.css HTTP/1.1" 200 32777
+[25/May/2018 23:16:04] "GET /post/view/10/wrapper.css HTTP/1.1" 200 32777
+[25/May/2018 23:16:04] "GET /post/view/10/logo_typeB_1.png HTTP/1.1" 200 32777
+Not Found: /post/view/3/lecture.css
+Not Found: /post/view/3/login-header-menu.css
+[25/May/2018 23:18:08] "GET /post/view/3/lecture.css HTTP/1.1" 404 1750
+Not Found: /post/view/3/wrapper.css
+[25/May/2018 23:18:08] "GET /post/view/3/login-header-menu.css HTTP/1.1" 404 1770
+[25/May/2018 23:18:08] "GET /post/view/3/wrapper.css HTTP/1.1" 404 1750
+[25/May/2018 23:18:36] "GET /post/view/10/login-header-menu.css HTTP/1.1" 200 32777
+[25/May/2018 23:18:36] "GET /post/view/10/lecture.css HTTP/1.1" 200 32777
+[25/May/2018 23:18:36] "GET /post/view/10/wrapper.css HTTP/1.1" 200 32777
+[25/May/2018 23:24:30] "GET /post/view/10/ HTTP/1.1" 200 26931
+[25/May/2018 23:24:30] "GET /post/view/10/lecture.css HTTP/1.1" 200 26931
+[25/May/2018 23:24:30] "GET /post/view/10/login-header-menu.css HTTP/1.1" 200 26931
+[25/May/2018 23:24:30] "GET /post/view/10/wrapper.css HTTP/1.1" 200 26931
+[25/May/2018 23:24:30] "GET /post/view/10/logo_typeB_1.png HTTP/1.1" 200 26931
+[25/May/2018 23:24:43] "GET /post/view/10/ HTTP/1.1" 200 26931
+[25/May/2018 23:24:43] "GET /post/view/10/logo_typeB_1.png HTTP/1.1" 200 26931
+[25/May/2018 23:24:52] "GET /post/view/10/ HTTP/1.1" 200 26931
+[25/May/2018 23:24:52] "GET /post/view/10/login-header-menu.css HTTP/1.1" 200 26931
+[25/May/2018 23:24:52] "GET /post/view/10/wrapper.css HTTP/1.1" 200 26931
+[25/May/2018 23:24:52] "GET /post/view/10/lecture.css HTTP/1.1" 200 26931
+[25/May/2018 23:24:52] "GET /post/view/10/logo_typeB_1.png HTTP/1.1" 200 26931
+[25/May/2018 23:27:00] "GET /post/view/10/ HTTP/1.1" 200 26931
+[25/May/2018 23:27:00] "GET /post/view/10/lecture.css HTTP/1.1" 200 26931
+[25/May/2018 23:27:00] "GET /post/view/10/wrapper.css HTTP/1.1" 200 26931
+[25/May/2018 23:27:00] "GET /post/view/10/login-header-menu.css HTTP/1.1" 200 26931
+[25/May/2018 23:27:00] "GET /post/view/10/logo_typeB_1.png HTTP/1.1" 200 26931
+Not Found: /post/view/1/
+[25/May/2018 23:27:05] "GET /post/view/1/ HTTP/1.1" 404 1728
+[25/May/2018 23:27:13] "GET /admin/auth/user/ HTTP/1.1" 200 7504
+[25/May/2018 23:27:16] "GET /admin/ HTTP/1.1" 200 8140
+[25/May/2018 23:27:18] "GET /admin/writer/mymodel/ HTTP/1.1" 200 4291
+[25/May/2018 23:27:18] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 23:27:21] "GET /admin/writer/mymodel/add/ HTTP/1.1" 200 8333
+[25/May/2018 23:27:21] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 23:27:28] "POST /admin/writer/mymodel/add/ HTTP/1.1" 302 0
+[25/May/2018 23:27:28] "GET /admin/writer/mymodel/ HTTP/1.1" 200 4706
+[25/May/2018 23:27:28] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+Not Found: /post/view/1/
+[25/May/2018 23:27:32] "GET /post/view/1/ HTTP/1.1" 404 1728
+[25/May/2018 23:27:35] "GET /post/view/11 HTTP/1.1" 301 0
+[25/May/2018 23:27:35] "GET /post/view/11/ HTTP/1.1" 200 2635
+[25/May/2018 23:27:35] "GET /post/view/11/login-header-menu.css HTTP/1.1" 200 2635
+[25/May/2018 23:27:35] "GET /post/view/11/wrapper.css HTTP/1.1" 200 2635
+[25/May/2018 23:27:35] "GET /post/view/11/lecture.css HTTP/1.1" 200 2635
+[25/May/2018 23:27:35] "GET /post/view/11/logo_typeB_1.png HTTP/1.1" 200 2635
+Performing system checks...
+
+May 25, 2018 - 22:49:03
+Django version 1.11.11, using settings 'sepo_server.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+----------------------------------------
+Exception happened during processing of request from ('172.17.101.225', 41823)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('172.17.101.225', 41840)
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('172.17.101.225', 41814)
+----------------------------------------
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W001) Your URL pattern '^$' uses include with a regex ending with a '$'. Remove the dollar from the regex to avoid problems including URLs.
+
+System check identified 1 issue (0 silenced).
+[25/May/2018 23:28:58] "GET /post/view/10/logo_typeB_1.png HTTP/1.1" 200 26931
+Performing system checks...
+
+May 25, 2018 - 23:28:10
+Django version 1.11.11, using settings 'sepo_server.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+System check identified some issues:
+
+WARNINGS:
+?: (urls.W001) Your URL pattern '^$' uses include with a regex ending with a '$'. Remove the dollar from the regex to avoid problems including URLs.
+
+System check identified 1 issue (0 silenced).
+[25/May/2018 23:31:05] "GET /post/view/10/logo_typeB_1.png HTTP/1.1" 200 26931
+[25/May/2018 23:31:05] "GET /post/view/10/ HTTP/1.1" 200 26931
+[25/May/2018 23:31:06] "GET /post/view/10/login-header-menu.css HTTP/1.1" 200 26931
+[25/May/2018 23:31:06] "GET /post/view/10/wrapper.css HTTP/1.1" 200 26931
+[25/May/2018 23:31:06] "GET /post/view/10/lecture.css HTTP/1.1" 200 26931
+[25/May/2018 23:31:06] "GET /post/view/10/logo_typeB_1.png HTTP/1.1" 200 26931
+[25/May/2018 23:31:59] "GET /post/view/1/ HTTP/1.1" 200 26931
+[25/May/2018 23:31:59] "GET /post/view/1/login-header-menu.css HTTP/1.1" 200 26931
+[25/May/2018 23:31:59] "GET /post/view/1/lecture.css HTTP/1.1" 200 26931
+[25/May/2018 23:31:59] "GET /post/view/1/wrapper.css HTTP/1.1" 200 26931
+[25/May/2018 23:31:59] "GET /post/view/1/logo_typeB_1.png HTTP/1.1" 200 26931
+[25/May/2018 23:32:02] "GET /post/view/2 HTTP/1.1" 301 0
+[25/May/2018 23:32:02] "GET /post/view/2/ HTTP/1.1" 200 2635
+[25/May/2018 23:32:02] "GET /post/view/2/login-header-menu.css HTTP/1.1" 200 2635
+[25/May/2018 23:32:02] "GET /post/view/2/lecture.css HTTP/1.1" 200 2635
+[25/May/2018 23:32:02] "GET /post/view/2/wrapper.css HTTP/1.1" 200 2635
+[25/May/2018 23:32:02] "GET /post/view/2/logo_typeB_1.png HTTP/1.1" 200 2635
+[25/May/2018 23:32:10] "GET /admin/ HTTP/1.1" 200 8156
+[25/May/2018 23:32:12] "GET /admin/writer/mymodel/ HTTP/1.1" 200 4508
+[25/May/2018 23:32:12] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+[25/May/2018 23:32:16] "POST /admin/writer/mymodel/ HTTP/1.1" 200 3211
+[25/May/2018 23:32:17] "POST /admin/writer/mymodel/ HTTP/1.1" 302 0
+[25/May/2018 23:32:17] "GET /admin/writer/mymodel/ HTTP/1.1" 200 4444
+[25/May/2018 23:32:17] "GET /admin/jsi18n/ HTTP/1.1" 200 8379
+Not Found: /post/view/10/logo_typeB_1.png
+[25/May/2018 23:32:28] "GET /post/view/10/logo_typeB_1.png HTTP/1.1" 404 1762
+Not Found: /post/view/10/
+[25/May/2018 23:33:07] "GET /post/view/10/ HTTP/1.1" 404 1730
+Not Found: /post/view/1/
+[25/May/2018 23:33:16] "GET /post/view/1/ HTTP/1.1" 404 1728
+Not Found: /post/view/1/
+[25/May/2018 23:33:25] "GET /post/view/1/ HTTP/1.1" 404 1728
+Not Found: /post/view/1/
+[25/May/2018 23:33:29] "GET /post/view/1/ HTTP/1.1" 404 1728
+Not Found: /post/view/10/
+[25/May/2018 23:33:33] "GET /post/view/10/ HTTP/1.1" 404 1730
+Not Found: /post/view/1/
+[25/May/2018 23:33:35] "GET /post/view/1/ HTTP/1.1" 404 1728
+[25/May/2018 23:34:51] "GET /post/view/1/ HTTP/1.1" 200 26931
+[25/May/2018 23:34:51] "GET /post/view/1/login-header-menu.css HTTP/1.1" 200 26931
+[25/May/2018 23:34:51] "GET /post/view/1/lecture.css HTTP/1.1" 200 26931
+[25/May/2018 23:34:51] "GET /post/view/1/wrapper.css HTTP/1.1" 200 26931
+[25/May/2018 23:34:51] "GET /post/view/1/logo_typeB_1.png HTTP/1.1" 200 26931
+Not Found: /post/view/10/logo_typeB_1.png
+[25/May/2018 23:37:11] "GET /post/view/10/logo_typeB_1.png HTTP/1.1" 404 1762
+[25/May/2018 23:37:28] "GET /post/view/1/ HTTP/1.1" 200 26931
+[25/May/2018 23:37:28] "GET /post/view/1/wrapper.css HTTP/1.1" 200 26931
+[25/May/2018 23:37:28] "GET /post/view/1/lecture.css HTTP/1.1" 200 26931
+[25/May/2018 23:37:28] "GET /post/view/1/login-header-menu.css HTTP/1.1" 200 26931
+[25/May/2018 23:37:28] "GET /post/view/1/logo_typeB_1.png HTTP/1.1" 200 26931
+Not Found: /post/view/10/logo_typeB_1.png
+[25/May/2018 23:39:13] "GET /post/view/10/logo_typeB_1.png HTTP/1.1" 404 1762
+[25/May/2018 23:50:59] "GET / HTTP/1.1" 200 5256
+[25/May/2018 23:50:59] "GET /static/icons.png HTTP/1.1" 304 0
+[25/May/2018 23:51:08] "GET / HTTP/1.1" 200 5256
+[25/May/2018 23:53:59] "GET / HTTP/1.1" 200 5256
+Not Found: /favicon.ico
+[25/May/2018 23:53:59] "GET /favicon.ico HTTP/1.1" 404 2744
+[25/May/2018 23:54:00] "GET / HTTP/1.1" 200 5256
+[25/May/2018 23:54:00] "GET /static/wrapper.css HTTP/1.1" 200 152
+[25/May/2018 23:54:00] "GET /static/mainPage-style.css HTTP/1.1" 200 268
+[25/May/2018 23:54:00] "GET /static/table.css HTTP/1.1" 200 591
+[25/May/2018 23:54:00] "GET /static/lecture.css HTTP/1.1" 200 270
+[25/May/2018 23:54:00] "GET /static/login-header-menu.css HTTP/1.1" 200 766
+[25/May/2018 23:54:01] "GET /static/icons.png HTTP/1.1" 200 54629
+[25/May/2018 23:54:01] "GET /static/logo_typeB_1.png HTTP/1.1" 200 415311
+[25/May/2018 23:58:04] "GET / HTTP/1.1" 200 5256
+[25/May/2018 23:58:05] "GET /static/icons.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[26/May/2018 00:01:32] "GET /favicon.ico HTTP/1.1" 404 2744
+Not Found: /post/view/10/wrapper.css
+Not Found: /post/view/10/lecture.css
+[26/May/2018 00:01:34] "GET /post/view/10/lecture.css HTTP/1.1" 404 1752
+Not Found: /post/view/10/login-header-menu.css
+[26/May/2018 00:01:34] "GET /post/view/10/wrapper.css HTTP/1.1" 404 1752
+[26/May/2018 00:01:34] "GET /post/view/10/login-header-menu.css HTTP/1.1" 404 1772
+Not Found: /post/view/10/logo_typeB_1.png
+[26/May/2018 00:01:34] "GET /post/view/10/logo_typeB_1.png HTTP/1.1" 404 1762
+[26/May/2018 00:01:36] "GET /admin/ HTTP/1.1" 200 8150
+[26/May/2018 00:09:50] "GET / HTTP/1.1" 200 5256
+Not Found: /Rank.html
+[26/May/2018 00:09:56] "GET /Rank.html HTTP/1.1" 404 2738
+[26/May/2018 00:12:02] "GET / HTTP/1.1" 200 5256
+Not Found: /Rank.html
+[26/May/2018 00:12:04] "GET /Rank.html HTTP/1.1" 404 2738
+Not Found: /LoginPage.html
+[26/May/2018 00:12:16] "GET /LoginPage.html HTTP/1.1" 404 2753
+Not Found: /Lecture.html
+[26/May/2018 00:13:03] "GET /Lecture.html HTTP/1.1" 404 2747
+[26/May/2018 00:15:06] "GET / HTTP/1.1" 200 5256
+[26/May/2018 00:15:06] "GET /static/icons.png HTTP/1.1" 304 0
+[26/May/2018 00:15:09] "GET / HTTP/1.1" 200 5256
+[26/May/2018 00:15:24] "GET /user/login/ HTTP/1.1" 200 3735
+[26/May/2018 00:15:37] "GET / HTTP/1.1" 200 5256
+Not Found: /post/view/10/logo_typeB_1.png
+[26/May/2018 00:24:28] "GET /post/view/10/logo_typeB_1.png HTTP/1.1" 404 1762

@@ -2,7 +2,7 @@
 from django.conf.urls import include,url
 from community.views import post_community
 from . import views
-from writer.views import test_writer, edit, delete, viewer
+from writer.views import test_writer, edit, delete, view
 
 
 urlpatterns = [

@@ -11,15 +11,16 @@ from django.contrib.auth import authenticate
 from django.contrib.auth import login as auth_login
 from django.shortcuts import redirect
 from django.contrib.auth.models import User
+from ranking.models import Score
 
 # Create your views here.
 
 def login(req):
-	template = get_template('TopRight.html')
+	template = get_template('LoginPage.html')
 
 	context = {'login_form' : LoginForm()}
 
-	return render(req,'TopRight.html',context)
+	return render(req,'LoginPage.html',context)
 
 def login_validate(req):
 	
@@ -51,6 +52,7 @@ def join(req):
 			if passw == pwcheck:
 				if not User.objects.filter(username = usern).exists():
 					User.objects.create_user(usern, '', passw)
+					Score.objects.create(username=usern)
 					return redirect('/user/login/')
 				else:
 					return HttpResponse('That ID Already Exists!')

@@ -1,15 +1,17 @@
 <!DOCTYPE html>
+{% load static %}
+
 <html>
 
 <head>
   <meta charset="utf-8">
   <title>Sepo</title>
   <link href="https://fonts.googleapis.com/css?family=Sunflower:300" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="login-header-menu.css">
-  <link rel="stylesheet" type="text/css" href="lecture.css">
-  <link rel="stylesheet" type="text/css" href="mainPage-style.css">
-  <link rel="stylesheet" type="text/css" href="wrapper.css">
-  <link rel="stylesheet" type="text/css" href="table.css">
+  <link rel="stylesheet" type="text/css" href="{% static 'login-header-menu.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'lecture.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'mainPage-style.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'wrapper.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'table.css' %}">
 </head>
 
 <body>
@@ -18,7 +20,7 @@
     <a href="SignUp.html" class="loginBar">회원가입</a>
   </div>
   <div class="header">
-    <a href="MainPage.html" title="Sepo"><img id="mainLogo" src="logo_typeB_1.png"></img></a>
+    <a href="MainPage.html" title="Sepo"><img id="mainLogo" src="{% static 'logo_typeB_1.png' %}"></img></a>
   </div>
   <div class="menu">
     <a href="Lecture.html" class="menuBar">Lecture</a>
@@ -47,7 +49,7 @@
     </div>
     <div class="main">
       <div class="mainElement">
-        <img src="icons.png" height="468px" width=auto style="position: relative;"></img>
+        <img src="{% static 'icons.png' %}" height="468px" width=auto style="position: relative;"></img>
         <div id="hello">
           <p>
             <br>어쩌구 저쩌구
