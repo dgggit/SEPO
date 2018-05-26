@@ -44,6 +44,7 @@ INSTALLED_APPS = [
 	'writer',
 	'user_manager',
 	'community',
+	'qna',
 	'mainpage',
     'problem',
     'ranking',

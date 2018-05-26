@@ -8,7 +8,7 @@ from django.http.response import HttpResponse
 from django.template.context_processors import csrf
 from user_manager.forms import LoginForm, JoinForm
 from django.contrib.auth import authenticate
-from django.contrib.auth import login as auth_login
+from django.contrib.auth import login as login_auth
 from django.shortcuts import redirect
 from django.contrib.auth.models import User
 from ranking.models import Score
@@ -27,11 +27,14 @@ def login_validate(req):
 	login_form_data = LoginForm(req.POST)
 
 	if login_form_data.is_valid():
-		user = authenticate(username = login_form_data.cleaned_data['id'], password = login_form_data.cleaned_data['password'])
-		if user is not None:
-			if user.is_active:
-				auth_login(req,user)
-				return redirect('/community/')
+		un = login_form_data.cleaned_data['username']
+		pw = login_form_data.cleaned_data['password']
+		usero = authenticate(username = un, password = pw)
+		if usero is not None:
+			if usero.is_active:
+				login_auth(req,usero)
+				return redirect('/')
+
 			
 		else:
 			return HttpResponse('No User or Password Error!')
@@ -45,7 +48,7 @@ def join(req):
 	if req.method == 'POST':
 		form_data = JoinForm(req.POST)
 		if form_data.is_valid():
-			usern = form_data.cleaned_data['id']
+			usern = form_data.cleaned_data['username']
 			passw = form_data.cleaned_data['password']
 			pwcheck = form_data.cleaned_data['password_check']
 

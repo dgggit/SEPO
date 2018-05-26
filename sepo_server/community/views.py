@@ -64,7 +64,7 @@ def add_comment(req,pk):
 
 def view_list(req):
 	objlist = Post_Community.objects.all()
-	paginator = Paginator(post,15)
+	paginator = Paginator(objlist,15)
 	page = req.GET.get('page')
 	
 	try:

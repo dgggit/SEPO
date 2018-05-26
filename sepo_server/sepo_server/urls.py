@@ -25,6 +25,7 @@ urlpatterns = [
 	url('^$', include('mainpage.urls')),
     url(r'^admin/', include(admin.site.urls)),
 	url(r'^community/', include('community.urls')),
+	url(r'^qna/', include('qna.urls')),
 	url(r'^user/', include('user_manager.urls')),
 	url(r'^post/',include('writer.urls')),
     url(r'^problem/', include('problem.urls')),
