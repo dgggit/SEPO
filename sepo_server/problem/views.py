@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
 
-from django.shortcuts import render
+from django.shortcuts import render, redirect, get_object_or_404
 from problem.models import ProblemModel
 from problem.forms import PostForm
 from django.template.loader import get_template
@@ -14,7 +14,11 @@ from ranking.models import Score, SolvedList
 def post_problem(req,pk):
     post = get_object_or_404(ProblemModel, pk = pk)
     
-    return render(req, 'Problem.html', {'post' : post})
+    solved = 'Not Solved'
+    if len(SolvedList.objects.filter(username = req.user, pnum=pk)) is not 0:
+		solved = 'Solved'
+
+    return render(req, 'Problem.html', {'post' : post, 'answerform': PostForm(), 'solved' : solved})
 
 def prob_validate(req,pk):
     answer = PostForm(req.POST)
@@ -23,11 +27,11 @@ def prob_validate(req,pk):
     if answer.is_valid():
         if answer.fl is post.flag:
             row = Score.objects.get(username=req.user)
-            if SolvedList.objects.filter(username = req.user, pnum=pk) is None :
+            if len(SolvedList.objects.filter(username = req.user, pnum=pk)) is 0 :
                 row.score = row.score + 5
                 row.save()
                 SolvedList.objects.create(username = req.user, pnum = pk)
-            return redirect('')
+            return redirect('/')
         else:
             return HttpResponse('Answer is wrong!')
     else:

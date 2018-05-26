@@ -10,3 +10,5 @@ class ProblemModel(models.Model):
     text = models.CharField(max_length = 2048)
     flag = models.CharField(max_length = 100)
 
+    def __str__(self):
+		return self.title
