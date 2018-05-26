@@ -6,14 +6,19 @@ from django.template.loader import get_template
 from django.shortcuts import render
 from django.http.response import HttpResponse
 from django.utils import timezone
-#fro ranking.models import Score
+from ranking.models import Score
+from writer.models import MyModel
+from community.models import Post_Community
 
 # Create your views here.
 
 def mainpage(req):
     template = get_template('MainPage.html')
-    context = {}
-    # context = {'rankdata' : Score.objects.order_by('rank')[:10] }
+    context = {'rankdata' : Score.objects.order_by('score')[:10],
+			'lecdata' : MyModel.objects.order_by('id')[:10],
+			'commudata' : Post_Community.objects.order_by('-id')[:10],
+
+	}
 
     return HttpResponse(template.render(context))
 

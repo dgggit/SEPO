@@ -16,36 +16,39 @@
 
 <body>
   <div class="login">
-    <a href="LoginPage.html" class="loginBar" style="margin-right:4px;">로그인</a>
-    <a href="SignUp.html" class="loginBar">회원가입</a>
-  </div>
+{% if User.is_active %}
+    <a class="loginBar" style="margin-right:4px;">{{ User.id }}</a>
+
+{% else %}
+    <a href="http://141.223.163.207:8000/user/login" class="loginBar" style="margin-right:4px;">로그인</a>
+    <a href="http://141.223.163.207:8000/user/join" class="loginBar">회원가입</a>
+
+{% endif %}
+    </div>
   <div class="header">
-    <a href="MainPage.html" title="Sepo"><img id="mainLogo" src="{% static 'logo_typeB_1.png' %}"></img></a>
+    <a href="http://141.223.163.207:8000/" title="Sepo"><img id="mainLogo" src="{% static 'logo_typeB_1.png' %}"></img></a>
   </div>
   <div class="menu">
-    <a href="Lecture.html" class="menuBar">Lecture</a>
+    <a href="http://141.223.163.207:8000/post/view/1/" class="menuBar">Lecture</a>
     <a href="Rank.html" target="_blank" class="menuBar">Rank</a>
-    <a href="community.html" class="menuBar">Community</a>
+{% if User.is_active %}
+    <a href="http://141.223.163.207:8000/community/" class="menuBar">Community</a>
+{% else %}
+     <a href="http://141.223.163.207:8000/user/login/" class="menuBar">Community</a>
+
+{% endif %}
     <a href="community.html" class="menuBar">Q & A</a>
-    <a class="menuBarExit">Help</a>
   </div>
   <div class="wrapper">
     <div class="lecture">
       <h2>
-        <a href="Lecture.html">강의</a>
+        <a href="http://141.223.163.207:8000/post/view/1/">강의</a>
       </h2>
       <ol type="a" style="list-style: none; padding-left: 1px;">
-        <li class="lectureList"><a>강의제목</a></li>
-        <li class="lectureList"><a>강의제목</a></li>
-        <li class="lectureList"><a>강의제목</a></li>
-        <li class="lectureList"><a>강의제목</a></li>
-        <li class="lectureList"><a>강의제목</a></li>
-        <li class="lectureList"><a>강의제목</a></li>
-        <li class="lectureList"><a>강의제목</a></li>
-        <li class="lectureList"><a>강의제목</a></li>
-        <li class="lectureList"><a>강의제목</a></li>
-        <li class="lectureList"><a>강의제목</a></li>
-      </ol>
+{% for lecture in lecdata %}
+        <li class="lectureList"><a href="{% url 'post_view' pk=lecture.pk %}">{{ lecture.title }}</a></li>
+{% endfor %}
+        </ol>
     </div>
     <div class="main">
       <div class="mainElement">

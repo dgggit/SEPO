@@ -3,6 +3,6 @@ from django.conf.urls import include,url
 from mainpage.views import mainpage
 
 urlpatterns = [
-	url('',mainpage),
+	url('',mainpage, name = 'mainpage'),
 ]
 
