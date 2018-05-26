@@ -29,11 +29,18 @@
 
 <body>
     <div class="login">
-        <a href="http://141.223.163.207:8000/user/login" class="loginBar" style="margin-right:4px;">로그인</a>
+{% if User.is_active %}
+    <a class="loginBar" style="margin-right:4px;">{{ User.id }}</a>
+
+{% else %}
+       <a href="http://141.223.163.207:8000/user/login" class="loginBar" style="margin-right:4px;">로그인</a>
         <a href="http://141.223.163.207:8000/user/join" class="loginBar">회원가입</a>
+{% endif %}
+
+     
     </div>
     <div class="header">
-        <a href="MainPage.html" title="Sepo"><img id="mainLogo" src="{% static 'logo_typeB_1.png' %}"></img></a>
+        <a href="" title="Sepo"><img id="mainLogo" src="{% static 'logo_typeB_1.png' %}"></img></a>
     </div>
     <div class="menu">
         <a href="http://141.223.163.207:8000/lecture/" class="menuBar">Lecture</a>
@@ -43,7 +50,7 @@
         <a class="menuBarExit">Help</a>
     </div>
     <div class="posts_list">
-        {% for post in Post_Community %}
+        {% for post in posts %}
         <div>
             <p><a href="http://141.223.163.207:8000/post/{{ post.id }}">title: {{ post.titie }}</a></p>
         </div>

@@ -1,11 +1,15 @@
-#from django.urls import path
+
 from django.conf.urls import include,url
-from community.views import post_community
 from . import views
+from community.views import *
 
 
 urlpatterns = [
-#	path('', views.index, name = 'index'),
-	url(r'^$',post_community),
+	url(r'^upload/',writer),
+	url(r'^edit/(?P<pk>\d+)/',edit, name = 'community_edit'),
+	url(r'^delete/(?P<pk>\d+)/',delete, name = 'community_delete'),
+    url(r'^view/(?P<pk>\d+)/',view_post, name = 'community_view'),
+	url(r'^view/(?P<pk>\d+)/addcomment/', views.add_comment, name = 'community_addcomment'),
+    url(r'^', views.view_list, name = 'community_list_view'),
 ]
 
