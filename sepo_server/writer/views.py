@@ -46,4 +46,20 @@ def delete(req,pk):
 
 def view(req, pk):
 	post = get_object_or_404(MyModel, pk=pk)
-	return render(req, 'Lecture.html',{'post':post})
+	plist = MyModel.objects.order_by('id')[:]
+	st = int(pk)-5
+	en = int(pk)+5
+	if st<0 :
+		st=0
+		en=10
+	elif en > len(plist) :
+		st = len(plist)-10		
+		en = len(plist)	
+	
+	context = {'lecdata' : MyModel.objects.order_by('id')[st:en], 'post':post}
+	return render(req, 'Lecture.html',context)
+
+    
+
+
+    

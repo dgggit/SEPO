@@ -5,9 +5,9 @@
 <head>
   <meta charset="utf-8">
   <title>SepoLecture</title>
-  <link rel="stylesheet" type="text/css" href="login-header-menu.css">
-  <link rel="stylesheet" type="text/css" href="lecture.css">
-  <link rel="stylesheet" type="text/css" href="wrapper.css">
+  <link rel="stylesheet" type="text/css" href="{% static 'login-header-menu.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'lecture.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'wrapper.css' %}">
   <style>
     .button {
       height: 40px;
@@ -20,48 +20,56 @@
 </head>
 
 <body>
-  <div class="login">
-    <a href="LoginPage.html" class="loginBar" style="margin-right:4px; text-decoration:none;">로그인</a>
-    <a href="SignUp.html" class="loginBar" style="text-decoration: none;">회원가입</a>
-  </div>
+<div class="login">
+ {% if User.is_active %}
+    <a class="loginBar" style="margin-right:4px;">{{ User.id }}</a>
+
+{% else %}
+    <a href="http://141.223.163.207:8000/user/login" class="loginBar" style="margin-right:4px;">로그인</a>
+    <a href="http://141.223.163.207:8000/user/join" class="loginBar">회원가입</a>
+
+{% endif %}
+    </div>
   <div class="header">
-    <a href="MainPage.html" title="Sepo"><img id="mainLogo" src="logo_typeB_1.png"></img></a>
+    <a href="http://141.223.163.207:8000/" title="Sepo"><img id="mainLogo" src="{% static 'logo_typeB_1.png' %}"></img></a>
   </div>
   <div class="menu">
-    <a href="Lecture.html" class="menuBar">Lecture</a>
+    <a href="http://141.223.163.207:8000/post/view/1/" class="menuBar">Lecture</a>
     <a href="Rank.html" target="_blank" class="menuBar">Rank</a>
-    <a href="community.html" class="menuBar">Community</a>
+{% if User.is_active %}
+    <a href="http://141.223.163.207:8000/community/" class="menuBar">Community</a>
+{% else %}
+     <a href="http://141.223.163.207:8000/user/login/" class="menuBar">Community</a>
+
+{% endif %}
     <a href="community.html" class="menuBar">Q & A</a>
-    <a class="menuBarExit">Help</a>
   </div>
   <div class="wrapper">
     <div class="lecture">
       <h2 style="margin-top: 0px; font-weight: normal; padding-bottom: 15px; padding-bottom: 15px; border-bottom: 1px dotted #8992a3;">
         <a href="Lecture.html" style="text-decoration: none;">강의</a>
       </h2>
-      <ol type="a" style="list-style: none; padding-left: 1px;">
-        <li class="lectureList"><a>강의제목</a></li>
-        <li class="lectureList"><a>강의제목</a></li>
-        <li class="lectureList"><a>강의제목</a></li>
-        <li class="lectureList"><a>강의제목</a></li>
-        <li class="lectureList"><a>강의제목</a></li>
-        <li class="lectureList"><a>강의제목</a></li>
-        <li class="lectureList"><a>강의제목</a></li>
-        <li class="lectureList"><a>강의제목</a></li>
-        <li class="lectureList"><a>강의제목</a></li>
-        <li class="lectureList"><a>강의제목</a></li>
-      </ol>
+      <ol type="a" style="list-style: none; padding-left: 1px;"> 
+{% for lecture in lecdata %}
+
+        <li class="lectureList"><a href="{% url 'post_view' pk=lecture.pk %}">{{ lecture.title }}</a></li>
+{% endfor %}
+        </ol>
     </div>
     <div class="lecturePage">
       <h2>첫번째 강의</h2>
       <h3>이 강의에 대한 설명</h3>
       <div style="margin-bottom: 410px;">
-        <form>
-            {{post.text | safe }}
-        </form>
+    <form>
+        {{post.text | safe }}
+    </form>
+
       </div>
-        <input class="button" type="button" value="이전">
-        <input class="button" type="button" value="다음" style="margin-left: 593px;">
+<input class="button" type="button" value="연습문제">
+ 
+
+        <input class="button" type="button" value="이전" href="{% url 'post_view' pk=3 %}">
+        <input class="button" type="button" value="다음" style="margin-left: 593px;" href="{% url 'post_view' pk=4 %}">
     </div>
   </div>
 
