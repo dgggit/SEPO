@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 {% load static %}
+
 <html>
 
 <head>
   <meta charset="utf-8">
-  <title>SepoLecture</title>
+ <title>SepoLecture</title>
   <link rel="stylesheet" type="text/css" href="{% static 'login-header-menu.css' %}">
   <link rel="stylesheet" type="text/css" href="{% static 'lecture.css' %}">
   <link rel="stylesheet" type="text/css" href="{% static 'wrapper.css' %}">
- <style type='text/css'>
-     html {
-               overflow-x: initial !important;
-                   }
+
+    <style type='text/css'>
+        html {
+                  overflow-x: initial !important;
+                      }
 
     #write,
     body {
@@ -1614,10 +1616,11 @@
         .typora-export .footnote-line {
                   white-space: normal;
                       }
+
 @import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
-a:link    {color:black; background-color:transparent; text-decoration:none}
+/*a:link    {color:black; background-color:transparent; text-decoration:none}
 a:visited {color:black; background-color:transparent; text-decoration:none}
-a:hover   {color:black; background-color:transparent; text-decoration:none}
+a:hover   {color:black; background-color:transparent; text-decoration:none}*/
 body {
     font-family: "Nanum Gothic", sans-serif;
 }
@@ -1635,21 +1638,18 @@ font-size: 13px;
       border: 0px;
       border-radius: 4px;
     }
+
   </style>
-</head>
+  </head>
 
 <body>
-<div class="login">
- {% if User.is_active %}
-    <a class="loginBar" style="margin-right:4px;">{{ User.id }}</a>
+  <div class="login">
 
-{% else %}
     <a href="http://141.223.163.207:8000/user/login" class="loginBar" style="margin-right:4px;">로그인</a>
     <a href="http://141.223.163.207:8000/user/join" class="loginBar">회원가입</a>
 
-{% endif %}
     </div>
-  <div class="header">
+    <div class="header">
     <a href="http://141.223.163.207:8000/" title="Sepo"><img id="mainLogo" src="{% static 'logo_typeB_1.png' %}"></img></a>
   </div>
   <div class="menu">
@@ -1658,18 +1658,19 @@ font-size: 13px;
     <a href="http://141.223.163.207:8000/community/" class="menuBar">Community</a>
     <a href="community.html" class="menuBar">Q & A</a>
   </div>
- <div class="wrapper">
+  <div class="wrapper">
     <div class="lecture">
       <h2 style="margin-top: 0px; font-weight: normal; padding-bottom: 15px; padding-bottom: 15px; border-bottom: 1px dotted #8992a3;">
         <a href="Lecture.html" style="text-decoration: none;">강의</a>
       </h2>
-      <ol type="a" style="list-style: none; padding-left: 1px;"> 
+      <ol type="a" style="list-style: none; padding-left: 1px;">
 {% for lecture in lecdata %}
 
        <strong><li class="lectureList"><a href="{% url 'post_view' pk=lecture.pk %}">{{ lecture.title }}</a></li></strong>
 {% endfor %}
         </ol>
-    </div>
+    </div> 
+    
     <div class="lecturePage">
       <div style="margin-bottom: 410px;">
     <form>
@@ -1678,12 +1679,11 @@ font-size: 13px;
 
       </div>
 <input class="button" type="button" value="연습문제" onClick="location.href='{% url 'post_problem' pk=plink%}'">
- 
-
-        <input class="button" type="button" value="이전" onClick="location.href='{% url 'post_view' pk=3 %}'">
+  <input class="button" type="button" value="이전" onClick="location.href='{% url 'post_view' pk=3 %}'">
         <input class="button" type="button" value="다음" style="margin-left: 593px;" onClick="location.href='{% url 'post_view' pk=5 %}'">
     </div>
     </div>
+
 
   <div class="footer">
     <ul style="margin-top: 15px; margin-bottom: 3px;">2018 Object-Oriented Programming</ul>

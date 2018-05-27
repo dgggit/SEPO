@@ -14,10 +14,9 @@ from community.models import Post_Community
 
 def mainpage(req):
     template = get_template('MainPage.html')
-    context = {'rankdata' : Score.objects.order_by('score')[:10],
+    context = {'rankdata' : Score.objects.order_by('-score')[:10],
 			'lecdata' : MyModel.objects.order_by('id')[:10],
 			'commudata' : Post_Community.objects.order_by('-id')[:10],
-
 	}
 
     return HttpResponse(template.render(context))

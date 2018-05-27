@@ -12,6 +12,7 @@ from django.contrib.auth import login as login_auth
 from django.shortcuts import redirect
 from django.contrib.auth.models import User
 from ranking.models import Score
+from ranking.views import update_ranking
 
 # Create your views here.
 
@@ -56,6 +57,7 @@ def join(req):
 				if not User.objects.filter(username = usern).exists():
 					User.objects.create_user(usern, '', passw)
 					Score.objects.create(username=usern)
+					update_ranking()
 					return redirect('/user/login/')
 				else:
 					return HttpResponse('That ID Already Exists!')
@@ -69,4 +71,5 @@ def join(req):
 			
 
 	return render(req,'SignUp.html',context)
+
 

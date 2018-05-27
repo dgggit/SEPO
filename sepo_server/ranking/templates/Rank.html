@@ -1,11 +1,13 @@
 <!DOCTYPE html>
+
+{% load static %}
 <html style="width: 300px; length: auto;">
 
 <head>
   <meta charset="utf-8">
   <title>SepoLecture</title>
-  <link rel="stylesheet" type="text/css" href="lecture.css">
-  <link rel="stylesheet" type="text/css" href="table.css">
+  <link rel="stylesheet" type="text/css" href="{% static 'lecture.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'table.css' %}">
 </head>
 
 <body style="width: 270px; margin-left: 20px; margin-top:30px; padding: 15px; border: 2px solid #C8D7FF; border-radius: 10px;">
@@ -19,66 +21,18 @@
         <td style="border-top: 0px; width: 60px;"></td>
       </tr>
       <tr>
-        <th scope="row">1</th>
+        <th scope="row">RANK</th>
         <td>ID</td>
-        <td>별명</td>
         <td>점수</td>
       </tr>
+{% for post in posts %}
       <tr>
-        <th scope="row">2</th>
-        <td>s</td>
-        <td>s</td>
-        <td>s</td>
+        <th scope="row">{{ post.ranking }}</th>
+        <td>{{ post.username }}</td>
+        <td>{{ post.score }}</td>
       </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td>s</td>
-        <td>s</td>
-        <td>s</td>
-      </tr>
-      <tr>
-        <th scope="row">4</th>
-        <td>s</td>
-        <td>s</td>
-        <td>s</td>
-      </tr>
-      <tr>
-        <th scope="row">5</th>
-        <td>s</td>
-        <td>s</td>
-        <td>s</td>
-      </tr>
-      <tr>
-        <th scope="row">6</th>
-        <td>s</td>
-        <td>s</td>
-        <td>s</td>
-      </tr>
-      <tr>
-        <th scope="row">7</th>
-        <td>s</td>
-        <td>s</td>
-        <td>s</td>
-      </tr>
-      <tr>
-        <th scope="row">8</th>
-        <td>s</td>
-        <td>s</td>
-        <td>s</td>
-      </tr>
-      <tr>
-        <th scope="row">9</th>
-        <td>s</td>
-        <td>s</td>
-        <td>s</td>
-      </tr>
-      <tr>
-        <th scope="row">21</th>
-        <td>You</td>
-        <td>사용자 별명</td>
-        <td>점수</td>
-      </tr>
-    </table>
+{% endfor %}
+            </table>
 
   </div>
 

@@ -44,15 +44,14 @@ body {
         <a href="MainPage.html" title="Sepo"><img id="mainLogo" src="{% static 'logo_typeB_1.png' %}"></img></a>
     </div>
     <div class="menu">
-        <a href="http://141.223.163.207:8000/lecture/" class="menuBar">Lecture</a>
+        <a href="http://141.223.163.207:8000/post/view/1" class="menuBar">Lecture</a>
         <a href="http://141.223.163.207:8000/rank/" target="_blank" class="menuBar">Rank</a>
         <a href="http://141.223.163.207:8000/community/" class="menuBar">Community</a>
         <a href="http://141.223.163.207:8000/" class="menuBar">Q & A</a>
-        <a class="menuBarExit">Help</a>
     </div>
     <div class="posts_list">
         <div>
-            <p>{{ post.text }}</p>
+           {{ post.text }}
         </div>
     </div>
     <div class="footer">

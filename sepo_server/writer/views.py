@@ -56,8 +56,10 @@ def view(req, pk):
 		st = len(plist)-10		
 		en = len(plist)	
 	
-	context = {'lecdata' : MyModel.objects.order_by('id')[st:en], 'post':post}
-	return render(req, 'Lecture.html',context)
+	plink = {'1':'1', '2':'3', '3':'4', '4':'4', '5':'5', '6':'5', '7':'6', '8':'6', '9':'6', '10':'7', '11':'7', '12':'8', }
+
+	context = {'lecdata' : MyModel.objects.order_by('id')[st:en], 'post':post, 'plink':plink[pk]}
+	return render(req, 'Lecture1.html',context)
 
     
 

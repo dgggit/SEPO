@@ -24,28 +24,18 @@ body {
 
 <body>
   <div class="login">
-{% if not user.is_anonymous %}
-    <a class="loginBar" style="margin-right:4px;">{{ user.username }}</a>
 
-{% else %}
     <a href="http://141.223.163.207:8000/user/login" class="loginBar" style="margin-right:4px;">로그인</a>
     <a href="http://141.223.163.207:8000/user/join" class="loginBar">회원가입</a>
 
-{% endif %}
     </div>
   <div class="header">
     <a href="http://141.223.163.207:8000/" title="Sepo"><img id="mainLogo" src="{% static 'logo_typeB_1.png' %}"></img></a>
   </div>
   <div class="menu">
     <a href="http://141.223.163.207:8000/post/view/1/" class="menuBar">Lecture</a>
-    <a href="Rank.html" target="_blank" class="menuBar">Rank</a>
-{% if User.is_active %}
+    <a href="{% url 'ranking_list_view' %}" target="_blank" class="menuBar">Rank</a>
     <a href="http://141.223.163.207:8000/community/" class="menuBar">Community</a>
-{% else %}
-     <a href="http://141.223.163.207:8000/user/login/" class="menuBar">Community</a>
-
-{% endif %}
-    <a href="community.html" class="menuBar">Q & A</a>
   </div>
   <div class="wrapper">
     <div class="lecture">
@@ -84,88 +74,45 @@ body {
       <a href="Rank.html" target="_blank"><h2>순위</h2></a>
       <table class="type01">
         <tr style="length:0px;">
-          <th scope="row" style="border-top: 0px; width: 30px;"></th>
-          <td style="border-top: 0px; width: 90px;"></td>
-          <td style="border-top: 0px; width: 90px;"></td>
+          <th scope="row" style="border-top: 0px; width: 60px;"></th>
+          <td style="border-top: 0px; width: 130px;"></td>
           <td style="border-top: 0px; width: 60px;"></td>
         </tr>
         <tr>
-          <th scope="row">1</th>
+          <th scope="row">RANK</th>
           <td>ID</td>
-          <td>별명</td>
           <td>점수</td>
         </tr>
+{% for rank in rankdata %}
         <tr>
-          <th scope="row">2</th>
-          <td>s</td>
-          <td>s</td>
-          <td>s</td>
+        <th scope="row">{{ rank.ranking }}</th>
+          <td>{{ rank.username }}</td>
+          <td>{{ rank.score }}</td>
         </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>s</td>
-          <td>s</td>
-          <td>s</td>
-        </tr>
-        <tr>
-          <th scope="row">4</th>
-          <td>s</td>
-          <td>s</td>
-          <td>s</td>
-        </tr>
-        <tr>
-          <th scope="row">5</th>
-          <td>s</td>
-          <td>s</td>
-          <td>s</td>
-        </tr>
-        <tr>
-          <th scope="row">6</th>
-          <td>s</td>
-          <td>s</td>
-          <td>s</td>
-        </tr>
+{% endfor %}
       </table>
 
     </div>
     <div class="qna">
-      <h2><a href="community.html">커뮤니티</h2></a>
+      <h2><a href="http://141.223.163.207:8000/community/">커뮤니티</h2></a>
       <table class="type01">
         <tr style="length:0px;">
-          <th scope="row" style="border-top: 0px; width: 30px;"></th>
-          <td style="border-top: 0px; width: 200px;"></td>
+          <th scope="row" style="border-top: 0px; width: 90px;"></th>
+          <td style="border-top: 0px; width: 140px;"></td>
           <td style="border-top: 0px; width: 30px;"></td>
         </tr>
         <tr>
-          <th scope="row">1</th>
+          <th scope="row">글번호</th>
           <td>글제목</td>
           <td>날짜</td>
         </tr>
+{% for post in commudata %}
         <tr>
-          <th scope="row">2</th>
-          <td>s</td>
-          <td>s</td>
+          <th scope="row">{{ post.id }}</th>
+        <td><a href="{% url 'community_view' pk=post.pk %}">{{ post.title }}</a></td>
+          <td>{{ post.published_date.year }}/{{ post.published_date.month }}/{{ post.published_date.day }}</td>
         </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>s</td>
-          <td>s</td>
-        </tr>
-        <tr>
-          <th scope="row">4</th>
-          <td>s</td>
-          <td>s</td>
-        </tr>
-        <tr>
-          <th scope="row">5</th>
-          <td>s</td>
-          <td>s</td>
-        </tr>
-        <tr>
-          <th scope="row">6</th>
-          <td>s</td>
-          <td>s</td>
-        </tr>
+{% endfor %}
       </table>
     </div>
   </div>
