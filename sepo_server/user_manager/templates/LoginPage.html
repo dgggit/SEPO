@@ -123,16 +123,16 @@ body {
 
 <body>
     <div class="login">
-        <a class="loginBar" href="http://141.223.163.207:8000/user/login/"><tt>login</tt></a>
-        <a class="loginBar" href="http://141.223.163.207:8000/user/join/"><tt>Sign up</tt></a>
+        <a class="loginBar" href="/user/login/"><tt>login</tt></a>
+        <a class="loginBar" href="/user/join/"><tt>Sign up</tt></a>
     </div>
   <div class="header">
-     <a href="http://141.223.163.207:8000/" title="Sepo"><img id="mainLogo" src="{% static 'logo_typeB_1.png'%}"></img></a>
+     <a href="/" title="Sepo"><img id="mainLogo" src="{% static 'logo_typeB_1.png'%}"></img></a>
   </div>
   <div class="menu">
-    <a href="http://141.223.163.207:8000/post/view/1/" class="menuBar">Lecture</a>
+    <a href="/post/view/1/" class="menuBar">Lecture</a>
     <a href="Rank.html" target="_blank" class="menuBar">Rank</a>
-    <a href="http://141.223.163.207:8000/community/" class="menuBar">Community</a>
+    <a href="/community/" class="menuBar">Community</a>
     <a href="community.html" class="menuBar">Q & A</a>
   </div>
   <div id="loginBox">
@@ -154,7 +154,7 @@ body {
         <div class="form4">
           <label><input type="checkbox">아이디저장</label>
           <div class="clear"></div>
-          <label><input type="button" value="회원가입" onclick = "location.href = 'http://141.223.163.207:8000/user/join/'"></label> <label><input
+          <label><input type="button" value="회원가입" onclick = "location.href = '/user/join/'"></label> <label><input
        type="button" value="아이디/비밀번호 찾기"></label>
         </div>
       </div>

@@ -6,7 +6,7 @@ from django.db import models
 from ckeditor_uploader.fields import RichTextUploadingField
 
 class Post_Community(models.Model):
-    author = models.ForeignKey(User)
+    author = models.ForeignKey(User, on_delete=models.DO_NOTHING)
     title = models.CharField(max_length=200)
     text = RichTextUploadingField(default = ' ')
     published_date = models.DateTimeField(blank = True, null = True)
@@ -15,7 +15,7 @@ class Post_Community(models.Model):
         return self.title
 
 class Comment_Community(models.Model):
-	post = models.ForeignKey('community.Post_Community', related_name = 'comments')
+	post = models.ForeignKey('community.Post_Community', related_name = 'comments', on_delete=models.DO_NOTHING)
 	author = models.CharField(max_length=200)
 	text = models.TextField()
 	created_date = models.DateTimeField(blank = True, null = True)

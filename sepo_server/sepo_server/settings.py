@@ -25,7 +25,7 @@ SECRET_KEY = 's04dh-9^*0g=12_lr^oscj=hhk^go)3uw5j0nxonwi+atga$!u'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['141.223.163.207']
+ALLOWED_HOSTS = [ 'localhost' ]
 
 
 # Application definition
@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-	'django_markdown',
 	'django.contrib.sites',
 	'ckeditor',
 	'ckeditor_uploader',
@@ -89,22 +88,11 @@ DATABASES = {
     'default': {
 		'ENGINE' : 'django.db.backends.mysql',
 		'NAME' : 'sepo6team',
-		'USER' : 'team6',
-		'PASSWORD' : 'sepo6team',
+		'USER' : 'root',
+		'PASSWORD' : '0516',
 	}
 
-
-#        'ENGINE': 'django.db.backends.sqlite3',
-#        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#    }
-#    'mysqldb': {
-#        'NAME' : 'second',
-#        'ENGINE' : 'django.db.backends.mysql',
-#        'USER' : 'team6',
-#        'PASSWORD' : 'sepo6team',
-#    }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/1.11/ref/settings/#auth-password-validators

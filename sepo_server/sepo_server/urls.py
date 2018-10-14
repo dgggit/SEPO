@@ -23,7 +23,7 @@ from django.conf.urls.static import static
 admin.autodiscover()
 urlpatterns = [
 	url('^$', include('mainpage.urls')),
-    url(r'^admin/', include(admin.site.urls)),
+	url(r'^admin/', admin.site.urls),
 	url(r'^community/', include('community.urls')),
 	url(r'^qna/', include('qna.urls')),
 	url(r'^user/', include('user_manager.urls')),

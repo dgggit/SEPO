@@ -6,7 +6,7 @@ from django.db import models
 from ckeditor_uploader.fields import RichTextUploadingField
 
 class Post_QNA(models.Model):
-    author = models.ForeignKey(User)
+    author = models.ForeignKey(User, on_delete=models.DO_NOTHING)
     title = models.CharField(max_length=200)
     whatlec = models.CharField(max_length = 30)
     text = RichTextUploadingField(default = ' ')
@@ -16,7 +16,7 @@ class Post_QNA(models.Model):
         return self.title
 
 class Comment_QNA(models.Model):
-	post = models.ForeignKey('qna.Post_QNA', related_name = 'comments')
+	post = models.ForeignKey('qna.Post_QNA', related_name = 'comments', on_delete=models.DO_NOTHING)
 	selected = models.BooleanField(default = False)
 	author = models.CharField(max_length=200)
 	text = models.TextField()

@@ -18,7 +18,7 @@ def post_problem(req,pk):
     
     solved = "Not Solved"
     if len(SolvedList.objects.filter(username = req.user, pnum=pk)) is not 0:
-		solved = "Solved"
+        solved = "Solved"
 
     return render(req, 'Problem.html', {'post' : post, 'answerform': PostForm(), 'solved' : solved})
 
@@ -36,7 +36,7 @@ def prob_validate(req,pk):
                 row.save()
                 SolvedList.objects.create(username = req.user, pnum = pk)
                 update_ranking()
-            	return redirect('/')
+                return redirect('/')
         else:
             return HttpResponse('Answer is wrong!')
     else:
